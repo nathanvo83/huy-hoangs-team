@@ -13,15 +13,15 @@ const renderMobile = () => (
   <div className="sectionA">
     <div className="sectionA-container-m">
       <div className="sectionA-title">
-        &nbsp; &bull; Expertly measured
+        &nbsp; &bull; Đo lường chuyên nghiệp
         <br />
-        &nbsp; &bull; Tailor-made
+        &nbsp; &bull; Đáp ứng nhu cầu
         <br />
-        &nbsp; &bull; Fitted to perfection
+        &nbsp; &bull; Hoàn thiện cho bạn
       </div>
       <div className="sectionA-subtitle">
-        Curtains, shutters & blinds chosen by you. Measured, made & fitted by
-        us.
+        Yên tâm lựa chọn màn cửa, cửa chớp và mành. Chúng tôi sẽ tận tâm đo
+        lường, thiết kế và hoàn thiện sự lựa chọn của bạn
       </div>
 
       <div className="sectionA-gallery-image">
@@ -43,8 +43,9 @@ const renderMobile = () => (
                 <div className="section-header-details">Blinds</div>
 
                 <div className="sectionA-item-details">
-                  Combining contemporary designs with great practical benefits,
-                  our huge rage of blinds offers style solution for every home.
+                  Với sự kết hợp hài hoà giữa phong cách hiện đại và lợi ích
+                  thiết thực, mẫu mã mành đa dạng của chúng tôi đem đến giải
+                  pháp tối ưu cho phong cách ngôi nhà của bạn.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -53,7 +54,7 @@ const renderMobile = () => (
                     href={ROUTES.BLINDS_ROLLER}
                     rel="noopener noreferrer"
                   >
-                    Roller
+                    Mành Cuốn
                   </a>
                   {" / "}
                   <a
@@ -61,7 +62,7 @@ const renderMobile = () => (
                     href={ROUTES.BLINDS_VENETIAN}
                     rel="noopener noreferrer"
                   >
-                    Venetian
+                    Mành Sáo Ngang
                   </a>
                   {" / "}
                   <a
@@ -69,7 +70,7 @@ const renderMobile = () => (
                     href={ROUTES.BLINDS_VERTICAL}
                     rel="noopener noreferrer"
                   >
-                    Vertical
+                    Mành Lá Dọc
                   </a>
                   {" / "}
                   <a
@@ -77,7 +78,7 @@ const renderMobile = () => (
                     href={ROUTES.BLINDS_ZEBRA}
                     rel="noopener noreferrer"
                   >
-                    Zebra
+                    Mành Cầu Vồng
                   </a>
                 </div>
               </div>
@@ -98,12 +99,12 @@ const renderMobile = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Curtains</div>
+                <div className="section-header-details">Màn Cửa</div>
 
                 <div className="sectionA-item-details">
-                  Add a touch of luxury for your home with beautiful curtains
-                  from our collection of quality fabrics and fashion forward
-                  designs.
+                  Tô điểm nét tinh tế, sang trọng cho ngôi nhà / tổ ấm của bạn
+                  với bộ sưu tập màn cửa đẹp cùng chất lượng vải hàng đầu và
+                  kiểu dáng theo xu hướng.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -112,7 +113,7 @@ const renderMobile = () => (
                     href={ROUTES.CURTAIN_DAY}
                     rel="noopener noreferrer"
                   >
-                    Day
+                    Màn Voan
                   </a>
                   {" / "}
                   <a
@@ -120,7 +121,7 @@ const renderMobile = () => (
                     href={ROUTES.CURTAIN_NIGHT}
                     rel="noopener noreferrer"
                   >
-                    Night
+                    Màn Chống Nắng và Nóng
                   </a>
                 </div>
               </div>
@@ -140,11 +141,12 @@ const renderMobile = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Shutters</div>
+                <div className="section-header-details">Cửa Chớp</div>
 
                 <div className="sectionA-item-details">
-                  Our collection of stunning shutters offers ranges and colours
-                  to elevate any room and capture your unique style.
+                  Loạt kiểu dáng và màu sắc ấn tượng từ bộ sưu tập cửa chớp của
+                  chúng tôi đáp ứng phong cách của riêng bạn và mang đến sự lý
+                  tưởng cho mọi căn phòng.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -153,7 +155,7 @@ const renderMobile = () => (
                     href={ROUTES.SHUTTER_TIMBER}
                     rel="noopener noreferrer"
                   >
-                    Timber
+                    Cửa Chớp Gỗ
                   </a>
                   {" / "}
 
@@ -162,7 +164,7 @@ const renderMobile = () => (
                     href={ROUTES.SHUTTER_PVC}
                     rel="noopener noreferrer"
                   >
-                    PVC
+                    Cửa Chớp PVC
                   </a>
                   {" / "}
 
@@ -171,7 +173,7 @@ const renderMobile = () => (
                     href={ROUTES.SHUTTER_EXTERIOR}
                     rel="noopener noreferrer"
                   >
-                    Exterior
+                    Cửa Chớp Ngoài Trời
                   </a>
                 </div>
               </div>
@@ -187,12 +189,12 @@ const renderTablet = () => (
   <div className="sectionA">
     <div className="sectionA-container-t">
       <div className="sectionA-title">
-        Expertly measured &nbsp; &bull; &nbsp;Tailor-made &nbsp; &bull; &nbsp;
-        Fitted to perfection
+        Đo lường chuyên nghiệp &nbsp; &bull; &nbsp;Đáp ứng nhu cầu &nbsp; &bull;
+        &nbsp; Hoàn thiện cho bạn
       </div>
       <div className="sectionA-subtitle">
-        Curtains, shutters & blinds chosen by you. Measured, made & fitted by
-        us.
+        Yên tâm lựa chọn màn cửa, cửa chớp và mành. Chúng tôi sẽ tận tâm đo
+        lường, thiết kế và hoàn thiện sự lựa chọn của bạn.
       </div>
 
       <div className="sectionA-gallery-image">
@@ -214,8 +216,9 @@ const renderTablet = () => (
                 <div className="section-header-details">Blinds</div>
 
                 <div className="sectionA-item-details">
-                  Combining contemporary designs with great practical benefits,
-                  our huge rage of blinds offers style solution for every home.
+                  Với sự kết hợp hài hoà giữa phong cách hiện đại và lợi ích
+                  thiết thực, mẫu mã mành đa dạng của chúng tôi đem đến giải
+                  pháp tối ưu cho phong cách ngôi nhà của bạn.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -224,7 +227,7 @@ const renderTablet = () => (
                     href={ROUTES.BLINDS_ROLLER}
                     rel="noopener noreferrer"
                   >
-                    Roller
+                    Mành Cuốn
                   </a>
                   {" / "}
                   <a
@@ -232,7 +235,7 @@ const renderTablet = () => (
                     href={ROUTES.BLINDS_VENETIAN}
                     rel="noopener noreferrer"
                   >
-                    Venetian
+                    Mành Sáo Ngang
                   </a>
                   {" / "}
                   <a
@@ -240,7 +243,7 @@ const renderTablet = () => (
                     href={ROUTES.BLINDS_VERTICAL}
                     rel="noopener noreferrer"
                   >
-                    Vertical
+                    Mành Lá Dọc
                   </a>
                   {" / "}
                   <a
@@ -248,7 +251,7 @@ const renderTablet = () => (
                     href={ROUTES.BLINDS_ZEBRA}
                     rel="noopener noreferrer"
                   >
-                    Zebra
+                    Mành Cầu Vồng
                   </a>
                 </div>
               </div>
@@ -269,12 +272,12 @@ const renderTablet = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Curtains</div>
+                <div className="section-header-details">Màn Cửa</div>
 
                 <div className="sectionA-item-details">
-                  Add a touch of luxury for your home with beautiful curtains
-                  from our collection of quality fabrics and fashion forward
-                  designs.
+                  Tô điểm nét tinh tế, sang trọng cho ngôi nhà / tổ ấm của bạn
+                  với bộ sưu tập màn cửa đẹp cùng chất lượng vải hàng đầu và
+                  kiểu dáng theo xu hướng.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -283,7 +286,7 @@ const renderTablet = () => (
                     href={ROUTES.CURTAIN_DAY}
                     rel="noopener noreferrer"
                   >
-                    Day
+                    Màn Voan
                   </a>
                   {" / "}
                   <a
@@ -291,7 +294,7 @@ const renderTablet = () => (
                     href={ROUTES.CURTAIN_NIGHT}
                     rel="noopener noreferrer"
                   >
-                    Night
+                    Màn Chống Nắng và Nóng
                   </a>
                 </div>
               </div>
@@ -311,11 +314,12 @@ const renderTablet = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Shutters</div>
+                <div className="section-header-details">Cửa Chớp</div>
 
                 <div className="sectionA-item-details">
-                  Our collection of stunning shutters offers ranges and colours
-                  to elevate any room and capture your unique style.
+                  Loạt kiểu dáng và màu sắc ấn tượng từ bộ sưu tập cửa chớp của
+                  chúng tôi đáp ứng phong cách của riêng bạn và mang đến sự lý
+                  tưởng cho mọi căn phòng.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -324,7 +328,7 @@ const renderTablet = () => (
                     href={ROUTES.SHUTTER_TIMBER}
                     rel="noopener noreferrer"
                   >
-                    Timber
+                    Cửa Chớp Gỗ
                   </a>
                   {" / "}
 
@@ -333,7 +337,7 @@ const renderTablet = () => (
                     href={ROUTES.SHUTTER_PVC}
                     rel="noopener noreferrer"
                   >
-                    PVC
+                    Cửa Chớp PVC
                   </a>
                   {" / "}
 
@@ -342,7 +346,7 @@ const renderTablet = () => (
                     href={ROUTES.SHUTTER_EXTERIOR}
                     rel="noopener noreferrer"
                   >
-                    Exterior
+                    Cửa Chớp Ngoài Trời
                   </a>
                 </div>
               </div>
@@ -358,12 +362,12 @@ const renderDesktop = () => (
   <div className="sectionA">
     <div className="sectionA-container">
       <div className="sectionA-title">
-        Expertly measured &nbsp; &bull; &nbsp;Tailor-made &nbsp; &bull; &nbsp;
-        Fitted to perfection
+        Đo lường chuyên nghiệp &nbsp; &bull; &nbsp;Đáp ứng nhu cầu &nbsp; &bull;
+        &nbsp; Hoàn thiện cho bạn
       </div>
       <div className="sectionA-subtitle">
-        Curtains, shutters & blinds chosen by you. Measured, made & fitted by
-        us.
+        Yên tâm lựa chọn màn cửa, cửa chớp và mành. Chúng tôi sẽ tận tâm đo
+        lường, thiết kế và hoàn thiện sự lựa chọn của bạn.
       </div>
 
       <div className="sectionA-gallery-image">
@@ -385,8 +389,9 @@ const renderDesktop = () => (
                 <div className="section-header-details">Blinds</div>
 
                 <div className="sectionA-item-details">
-                  Combining contemporary designs with great practical benefits,
-                  our huge rage of blinds offers style solution for every home.
+                  Với sự kết hợp hài hoà giữa phong cách hiện đại và lợi ích
+                  thiết thực, mẫu mã mành đa dạng của chúng tôi đem đến giải
+                  pháp tối ưu cho phong cách ngôi nhà của bạn.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -395,7 +400,7 @@ const renderDesktop = () => (
                     href={ROUTES.BLINDS_ROLLER}
                     rel="noopener noreferrer"
                   >
-                    Roller
+                    Mành Cuốn
                   </a>
                   {" / "}
                   <a
@@ -403,7 +408,7 @@ const renderDesktop = () => (
                     href={ROUTES.BLINDS_VENETIAN}
                     rel="noopener noreferrer"
                   >
-                    Venetian
+                    Mành Sáo Ngang
                   </a>
                   {" / "}
                   <a
@@ -411,7 +416,7 @@ const renderDesktop = () => (
                     href={ROUTES.BLINDS_VERTICAL}
                     rel="noopener noreferrer"
                   >
-                    Vertical
+                    Mành Lá Dọc
                   </a>
                   {" / "}
                   <a
@@ -419,7 +424,7 @@ const renderDesktop = () => (
                     href={ROUTES.BLINDS_ZEBRA}
                     rel="noopener noreferrer"
                   >
-                    Zebra
+                    Mành Cầu Vồng
                   </a>
                 </div>
               </div>
@@ -437,12 +442,12 @@ const renderDesktop = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Curtains</div>
+                <div className="section-header-details">Màn Cửa</div>
 
                 <div className="sectionA-item-details">
-                  Add a touch of luxury for your home with beautiful curtains
-                  from our collection of quality fabrics and fashion forward
-                  designs.
+                  Tô điểm nét tinh tế, sang trọng cho ngôi nhà / tổ ấm của bạn
+                  với bộ sưu tập màn cửa đẹp cùng chất lượng vải hàng đầu và
+                  kiểu dáng theo xu hướng.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -451,7 +456,7 @@ const renderDesktop = () => (
                     href={ROUTES.CURTAIN_DAY}
                     rel="noopener noreferrer"
                   >
-                    Day
+                    Màn Voan
                   </a>
                   {" / "}
                   <a
@@ -459,7 +464,7 @@ const renderDesktop = () => (
                     href={ROUTES.CURTAIN_NIGHT}
                     rel="noopener noreferrer"
                   >
-                    Night
+                    Màn Chống Nắng và Nóng
                   </a>
                 </div>
               </div>
@@ -477,11 +482,12 @@ const renderDesktop = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Shutters</div>
+                <div className="section-header-details">Cửa Chớp</div>
 
                 <div className="sectionA-item-details">
-                  Our collection of stunning shutters offers ranges and colours
-                  to elevate any room and capture your unique style.
+                  Loạt kiểu dáng và màu sắc ấn tượng từ bộ sưu tập cửa chớp của
+                  chúng tôi đáp ứng phong cách của riêng bạn và mang đến sự lý
+                  tưởng cho mọi căn phòng.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -490,7 +496,7 @@ const renderDesktop = () => (
                     href={ROUTES.SHUTTER_TIMBER}
                     rel="noopener noreferrer"
                   >
-                    Timber
+                    Cửa Chớp Gỗ
                   </a>
                   {" / "}
 
@@ -499,7 +505,7 @@ const renderDesktop = () => (
                     href={ROUTES.SHUTTER_PVC}
                     rel="noopener noreferrer"
                   >
-                    PVC
+                    Cửa Chớp PVC
                   </a>
                   {" / "}
 
@@ -508,7 +514,7 @@ const renderDesktop = () => (
                     href={ROUTES.SHUTTER_EXTERIOR}
                     rel="noopener noreferrer"
                   >
-                    Exterior
+                    Cửa Chớp Ngoài Trời
                   </a>
                 </div>
               </div>

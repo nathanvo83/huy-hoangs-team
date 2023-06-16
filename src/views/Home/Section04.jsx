@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const renderMobile = () => (
   <div className="section04">
     <div className="section04-container-m">
-      <div className="section04-header">About us</div>
+      <div className="section04-header">Về chúng tôi</div>
 
       <Grid columns="1" style={{ margin: 0 }}>
         <Grid.Row>
@@ -122,7 +122,7 @@ const renderMobile = () => (
 const renderTablet = () => (
   <div className="section04">
     <div className="section04-container-t">
-      <div className="section04-header">About us</div>
+      <div className="section04-header">Về chúng tôi</div>
 
       <Grid columns="2">
         <Grid.Row>
@@ -229,7 +229,7 @@ const renderTablet = () => (
 const renderDesktop = () => (
   <div className="section04">
     <div className="section04-container">
-      <div className="section04-header">About us</div>
+      <div className="section04-header">Về chúng tôi</div>
 
       <Grid columns="2">
         <Grid.Row>

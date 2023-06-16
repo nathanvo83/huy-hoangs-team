@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import jQuery from 'jquery';
+import jQuery from "jquery";
 import "magnific-popup";
 
 import App from "./App";

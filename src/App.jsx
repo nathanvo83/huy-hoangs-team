@@ -10,36 +10,15 @@ const App = () => {
   return (
     <div>
       <div className="app-icon-bar">
-        {/* <div className="app-phone-content">
-          <a href="tel:+64 800 765 567" rel="noopener noreferrer">
-            <FontAwesomeIcon
-              icon={faPhoneAlt}
-              className="app-phone"
-            ></FontAwesomeIcon>
-          </a>
-        </div> */}
-
         <div className="app-phone-outter">
-          {/* <a href="tel:+64 800 765 567" rel="noopener noreferrer">
-            <FontAwesomeIcon
-              icon={faPhoneAlt}
-              className="app-phone"
-            ></FontAwesomeIcon>
-          </a> */}
-          <a href="tel:+64 800 765 567" rel="noopener noreferrer">
+          <a href="tel:097 137 2222" rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={faPhoneAlt}
               className="app-phone"
             ></FontAwesomeIcon>
           </a>
         </div>
-        {/* <a
-          href="tel:+64 800 765 567"
-          className="app-phone"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faPhoneVolume}></FontAwesomeIcon>
-        </a> */}
+
         {/* <a href="#" className="facebook">
           <i className="fa fa-facebook"></i>
         </a>

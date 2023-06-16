@@ -1,60 +1,60 @@
 export const home = {
   // -----
   section01: {
-    title: "The Importance of Curtains and Blinds",
+    title: "Tầm quan trọng của màn cửa và mành",
     content: [
-      "Curtains and blinds have similar functional purposes and have numerous identical traits. They are designed as window coverings and perform multiple tasks including blocking sunlight, controlling light permeability, and privacy.",
-      "With New Zealand ’s fast-evolving lifestyle and improvement of the residents’ quality of life, curtains and blinds have extended their functional value to aesthetics and are thus now crucial elements in a home’s interior design.",
-      "Curtains easily complement any interior design. They come in varieties such as day and night curtains that are available in a spectrum of material and styles.",
-      "Blinds are neat, feasible and minimalist. They widen the options in light filtering and design options."
-    ]
+      "Màn cửa và mành có mục đích, chức năng và nhiều đặc điểm tương tự nhau. Chúng được thiết kế như bức màn che cửa sổ và thực hiện nhiều nhiệm vụ như ngăn chặn ánh sáng mặt trời, kiểm soát mức độ xuyên thấu của ánh sáng và sự riêng tư.",
+      "Với lối sống phát triển nhanh chóng và chất lượng cuộc sống của người dân được cải thiện liên tục, giá trị chức năng của màn cửa và mành đã đạt đến đến giá trị thẩm mỹ và, giờ đây trở thành yếu tố cốt yếu / không thể thiếu trong thiết kế nội thất của một ngôi nhà.",
+      "Màn cửa có thể dễ dàng trở thành một phần của bất cứ thiết kế nội thất nào nhờ loại, màu sắc và kiểu dáng đa dạng như màn cửa voan, màn cửa chống nắng.",
+      "Mành gọn gàng, khả thi và tối giản đồng thời mang lại nhiều sự lựa chọn hơn về thiết kế và lọc ánh sáng.",
+    ],
   },
   section02: {
-    title: "You'll love what we do",
+    title: "Bạn sẽ hài lòng với những gì chúng tôi mang lại",
     content: [
-      "Looking for the latest designs for your window dressings? Our collections of made-to-measure window coverings are sure to offer a design that catches your eye.",
-      "And that’s not all. Our fantastic in-home service and experienced advisor team means you’ll get all the advice you need to make just the right decision for your home and lifestyle. Measured and fitted by the experts for a perfect finish every time.",
-      "There’s a lot to love about what we do. So request your in-home appointment today."
-    ]
+      "Bạn đang kiếm thiết kế mới nhất cho việc trang hoàng cửa sổ nhà bạn? Từng màn che cửa sổ được may đo tỉ mỉ theo số đo riêng phù hợp với cửa sổ nhà bạn trong bộ sưu tập của chúng tôi nhất định sẽ mang đến những thiết kế thu hút ánh nhìn của bạn.",
+      "Không những thế,  dịch vụ tại nhà tận tâm và đội ngũ tư vấn viên của chúng tôi còn đảm bảo bạn được nhận tất cả những lời tư vấn cần thiết để đưa ra quyết định đúng đắn cho ngôi nhà và lối sống của bạn. Mọi thành phẩm đều sẽ được đo đạc và lắp ráp bởi chuyên gia.",
+      "Bạn sẽ hài lòng với rất nhiều điều về chúng tôi nên đừng chần chừ mà hãy đặt lịch hẹn với chúng tôi ngay hôm nay.",
+    ],
   },
 
   section03: {
-    title: "Window Covering Specialists",
+    title: "Chuyên gia trong lĩnh vực sản xuất và lắp đặt màn che cửa sổ",
     content: [
-      "We are a leading provider of high quality window treatments servicing in Auckland area. We specialize in the finest curtains, shades, blinds, drapes and other window treatments from the leading manufacturers.",
-      "With many years of experience, our relationships enable us to bring our clients the finest products. Whether you are looking for window treatments for your home or office, we have the variety that you need at the lowest prices. In addition to the high quality products, we offer the best professional installation and related services, with outstanding customer service."
-    ]
+      "Chúng tôi là nhà cung cấp hàng đầu dịch vụ trang trí cửa sổ chất lượng cao ở khu vực Thành phố Hồ Chí Minh. Chúng tôi chuyên cung cấp màn cửa, rèm cửa, mành, màn sáo và các vật dụng trang trí cửa sổ chất lượng cao khác từ các nhà sản xuất uy tín. ",
+      "Với nhiều năm kinh nghiệm, các mối quan hệ của chúng tôi cho phép chúng tôi mang đến cho khách hàng những sản phẩm tốt nhất. Cho dù bạn đang tìm kiếm vật dụng cho cửa sổ ngôi nhà hay văn phòng của bạn, chúng tôi đều có thể cung cấp nhiều loại, kiểu dáng, và màu sắc mà bạn cần với mức giá thấp nhất. Ngoài các sản phẩm chất lượng cao, chúng tôi còn cung cấp dịch vụ lắp đặt chuyên nghiệp, dịch vụ khách hàng xuất sắc và các dịch vụ liên quan khác.",
+    ],
   },
   section04: {
     aboutUs_01: {
       title: "100% Satisfaction",
       content:
-        "Whether it's elegant draperies, roller blinds, or shutters you require, we will work with you to ensure that your window furnishings not only complete your architectural vision but possesses the enduring performance to withstand time."
+        "Cho dù nhu cầu của bạn là những tấm màn với phong cách thanh lịch, Mành Cuốn hay Cửa Chớp, chúng tôi sẽ hợp tác với bạn để đảm bảo rằng trang bị cửa sổ của bạn không những thoả mãn nhu cầu của bạn về vẻ đẹp kiến trúc mà còn về sự bền bỉ, chắn chắn theo thời gian.",
     },
     aboutUs_02: {
       title: "Personalisation",
       content:
-        "Everyone is different & unique. Our designs come in wide range of styles, fabrics, patterns. We have something for every home. Allow us to assist you in creating your perfect window dressing!"
+        "Mỗi cá nhân đều là những cá thể độc đáo và riêng biệt. Những thiết kế của chúng tôi mang đến sự đa dạng về kiểu cách, chất vải và hoa văn. Chính vì thế chúng tôi có thể đáp ứng nhu cầu của mọi căn nhà. Hãy cho phép chúng tôi hỗ trợ bạn trong việc làm cho cửa sổ nhà bạn hoàn hảo hơn.",
     },
     aboutUs_03: {
       title: "Warranty",
       content:
-        "We provide five years warranty for all products. Although we are confident in our products’ quality, we are more than happy to be of assistance should you encounter any issues."
+        "Chúng tôi bảo hành năm năm cho tất cả các sản phẩm. Mặc dù chúng tôi tự tin vào chất lượng sản phẩm của mình, nhưng chúng tôi rất vui được hỗ trợ bạn nếu bạn gặp phải bất kỳ vấn đề nào.",
     },
     aboutUs_04: {
       title: "We come to you",
       content:
-        "We provide you professional non-obligatory consultation and quotation for your window dressing."
+        "Chúng tôi đem đến cho bạn dịch vụ tư vấn và báo giá chuyên nghiệp miễn phí cho ngôi nhà của bạn.",
     },
     aboutUs_05: {
       title: "Customer service",
       content:
-        "You will enjoy the highest standard of customer service from quotation right through to installation."
+        "Bạn sẽ được hưởng tiêu chuẩn dịch vụ khách hàng cao nhất xuyên suốt quá trình từ ​​báo giá cho đến lắp đặt.",
     },
     aboutUs_06: {
       title: "Best price Guarantee",
       content:
-        "We do our best to always offer you the lowest price, but if you find a lower  price on another site, we will be happy to match it and give you 15% off that product."
-    }
-  }
+        "Chúng tôi luôn cố gắng hết sức để mang đến cho bạn mức giá thấp nhất, nhưng nếu bạn tìm thấy giá cả thấp hơn trên trang web khác, chúng tôi sẽ sẵn lòng điều chỉnh lại mức giá đồng thời gửi tặng bạn ưu đãi 15% cho sản phẩm đó.",
+    },
+  },
 };

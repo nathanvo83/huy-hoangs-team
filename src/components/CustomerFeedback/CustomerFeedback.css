@@ -64,6 +64,7 @@
 
 .CustomerFeedback-button {
   margin-top: 24px;
+  font-family: Arial, Helvetica, sans-serif !important;
   background-color: #eb0143 !important;
   color: #f5f5f5 !important;
 }

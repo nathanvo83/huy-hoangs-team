@@ -36,18 +36,12 @@ const Navbar = () => {
         >
           <div className="dropdown">
             <div className="branch">
-              {/* <Link to={ROUTES.HOME} style={{ padding: 0 }}>
-                <img src={logo} alt="" className="n-logo"></img>
-              </Link> */}
-              {/* <a href={ROUTES.HOME} className="branch"> */}
               <img
                 src={logo}
                 alt=""
                 className="n-logo"
                 onClick={gotoHomePage}
               ></img>
-              {/* </a> */}
-              {/* <img src={logo} alt="" className="n-logo"></img> */}
             </div>
           </div>
 
@@ -56,19 +50,19 @@ const Navbar = () => {
             rel="noopener noreferrer"
             onClick={closeBurgerMenu}
           >
-            Home
+            TRANG CHỦ
           </a>
 
           <div className="dropdown">
             <button className="dropbtn">
-              Blinds&nbsp;
+              MÀNH&nbsp;
               <FontAwesomeIcon icon={faCaretDown}></FontAwesomeIcon>
             </button>
             <div className="dropdown-content">
               <a
                 href={ROUTES.BLINDS_ROLLER}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.BLINDS_ROLLER ? 'active' : ''}
+                className={currentPage === ROUTES.BLINDS_ROLLER ? "active" : ""}
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -80,7 +74,9 @@ const Navbar = () => {
               <a
                 href={ROUTES.MOTORISED_ROLLER}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.MOTORISED_ROLLER ? 'active' : ''}
+                className={
+                  currentPage === ROUTES.MOTORISED_ROLLER ? "active" : ""
+                }
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -92,7 +88,9 @@ const Navbar = () => {
               <a
                 href={ROUTES.BLINDS_VENETIAN}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.BLINDS_VENETIAN ? 'active' : ''}
+                className={
+                  currentPage === ROUTES.BLINDS_VENETIAN ? "active" : ""
+                }
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -104,7 +102,9 @@ const Navbar = () => {
               <a
                 href={ROUTES.BLINDS_VERTICAL}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.BLINDS_VERTICAL ? 'active' : ''}
+                className={
+                  currentPage === ROUTES.BLINDS_VERTICAL ? "active" : ""
+                }
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -116,7 +116,7 @@ const Navbar = () => {
               <a
                 href={ROUTES.BLINDS_ZEBRA}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.BLINDS_ZEBRA ? 'active' : ''}
+                className={currentPage === ROUTES.BLINDS_ZEBRA ? "active" : ""}
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -130,14 +130,14 @@ const Navbar = () => {
 
           <div className="dropdown">
             <button className="dropbtn">
-              Curtains&nbsp;
+              MÀN CỬA&nbsp;
               <FontAwesomeIcon icon={faCaretDown}></FontAwesomeIcon>
             </button>
             <div className="dropdown-content">
               <a
                 href={ROUTES.CURTAIN_DAY}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.CURTAIN_DAY ? 'active' : ''}
+                className={currentPage === ROUTES.CURTAIN_DAY ? "active" : ""}
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -149,7 +149,7 @@ const Navbar = () => {
               <a
                 href={ROUTES.CURTAIN_NIGHT}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.CURTAIN_NIGHT ? 'active' : ''}
+                className={currentPage === ROUTES.CURTAIN_NIGHT ? "active" : ""}
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -163,14 +163,16 @@ const Navbar = () => {
 
           <div className="dropdown">
             <button className="dropbtn">
-              Shutters&nbsp;
+              CỬA CHỚP&nbsp;
               <FontAwesomeIcon icon={faCaretDown}></FontAwesomeIcon>
             </button>
             <div className="dropdown-content">
               <a
                 href={ROUTES.SHUTTER_TIMBER}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.SHUTTER_TIMBER ? 'active' : ''}
+                className={
+                  currentPage === ROUTES.SHUTTER_TIMBER ? "active" : ""
+                }
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -182,7 +184,7 @@ const Navbar = () => {
               <a
                 href={ROUTES.SHUTTER_PVC}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.SHUTTER_PVC ? 'active' : ''}
+                className={currentPage === ROUTES.SHUTTER_PVC ? "active" : ""}
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -239,10 +241,10 @@ const Navbar = () => {
           <a
             href={ROUTES.PROJECTS}
             rel="noopener noreferrer"
-            className={currentPage === ROUTES.PROJECTS ? 'active' : ''}
+            className={currentPage === ROUTES.PROJECTS ? "active" : ""}
             onClick={closeBurgerMenu}
           >
-            Projects
+            DỰ ÁN
           </a>
 
           <div className="dropdown">
@@ -254,7 +256,9 @@ const Navbar = () => {
               <a
                 href={ROUTES.BUYINGGUIDE_BLINDS}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.BUYINGGUIDE_BLINDS ? 'active' : ''}
+                className={
+                  currentPage === ROUTES.BUYINGGUIDE_BLINDS ? "active" : ""
+                }
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -266,7 +270,9 @@ const Navbar = () => {
               <a
                 href={ROUTES.BUYINGGUIDE_CURTAINS}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.BUYINGGUIDE_CURTAINS ? 'active' : ''}
+                className={
+                  currentPage === ROUTES.BUYINGGUIDE_CURTAINS ? "active" : ""
+                }
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -278,7 +284,9 @@ const Navbar = () => {
               <a
                 href={ROUTES.BUYINGGUIDE_SHUTTERS}
                 rel="noopener noreferrer"
-                className={currentPage === ROUTES.BUYINGGUIDE_SHUTTERS ? 'active' : ''}
+                className={
+                  currentPage === ROUTES.BUYINGGUIDE_SHUTTERS ? "active" : ""
+                }
                 onClick={closeBurgerMenu}
               >
                 <FontAwesomeIcon
@@ -293,10 +301,10 @@ const Navbar = () => {
           <a
             href={ROUTES.SUSTAINABILITY}
             rel="noopener noreferrer"
-            className={currentPage === ROUTES.SUSTAINABILITY ? 'active' : ''}
+            className={currentPage === ROUTES.SUSTAINABILITY ? "active" : ""}
             onClick={closeBurgerMenu}
           >
-            Sustainability
+            SỰ BỀN VỮNG
           </a>
 
           {/* <a
@@ -319,19 +327,19 @@ const Navbar = () => {
           <a
             href={ROUTES.SHOWROOM}
             rel="noopener noreferrer"
-            className={currentPage === ROUTES.SHOWROOM ? 'active' : ''}
+            className={currentPage === ROUTES.SHOWROOM ? "active" : ""}
             onClick={closeBurgerMenu}
           >
-            Show Room
+            CỬA HÀNG TRƯNG BÀY
           </a>
 
           <a
             href={ROUTES.CONTACTUS}
             rel="noopener noreferrer"
-            className={currentPage === ROUTES.CONTACTUS ? 'active' : ''}
+            className={currentPage === ROUTES.CONTACTUS ? "active" : ""}
             onClick={closeBurgerMenu}
           >
-            Contact us
+            LIÊN HỆ
           </a>
 
           <a

@@ -6,7 +6,7 @@ import "./Quote.css";
 import {
   emailjsKey,
   emailjsServiceId,
-  emailjsTemplateIdQuote
+  emailjsTemplateIdQuote,
 } from "../../config/config";
 import emailjs from "emailjs-com";
 import { Responsive } from "semantic-ui-react";
@@ -24,19 +24,19 @@ const Quote = () => {
   const [errorAddress, setErrorAddress] = useState(false);
   const [errorPostCode, setErrorPostCode] = useState(false);
 
-  const fullNameHandler = e => {
+  const fullNameHandler = (e) => {
     setFullName(e.target.value);
   };
-  const phoneHandler = e => {
+  const phoneHandler = (e) => {
     setPhone(e.target.value);
   };
-  const emailHandler = e => {
+  const emailHandler = (e) => {
     setEmail(e.target.value);
   };
-  const addressHandler = e => {
+  const addressHandler = (e) => {
     setAddress(e.target.value);
   };
-  const postCodeHandler = e => {
+  const postCodeHandler = (e) => {
     setPostCode(e.target.value);
   };
 
@@ -76,7 +76,7 @@ const Quote = () => {
       phone,
       email,
       address,
-      postCode
+      postCode,
     };
 
     if (
@@ -94,11 +94,11 @@ const Quote = () => {
           emailjsKey
         )
         .then(
-          result => {
+          (result) => {
             console.log(result.text);
             resetHandler();
           },
-          error => {
+          (error) => {
             console.log(error.text);
           }
         );
@@ -125,20 +125,20 @@ const Quote = () => {
     <div className="quote-bg">
       <Form onSubmit={submitHandler}>
         <Form.Field className="quote-field">
-          <a href="tel:+64 800 765 567" rel="noopener noreferrer">
+          <a href="tel:097 137 2222" rel="noopener noreferrer">
             <div className="quote-phone">
               <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
-              &nbsp; 0800 765 567
+              &nbsp; 097 137 2222
             </div>
           </a>
         </Form.Field>
         <Form.Field>
-          <div className="quote-title">Book A Free Measure & Quote</div>
+          <div className="quote-title">ĐĂNG KÝ ĐO VÀ BÁO GIÁ MIỄN PHÍ</div>
         </Form.Field>
         <Form.Field className="quote-field">
           <Input
             value={fullName}
-            placeholder="Full name"
+            placeholder="Họ và tên"
             onChange={fullNameHandler}
           ></Input>
         </Form.Field>
@@ -147,13 +147,13 @@ const Quote = () => {
             <Input
               error
               value={phone}
-              placeholder="Phone number(*)"
+              placeholder="Số điện thoại(*)"
               onChange={phoneHandler}
             ></Input>
           ) : (
             <Input
               value={phone}
-              placeholder="Phone number(*)"
+              placeholder="Số điện thoại(*)"
               onChange={phoneHandler}
             ></Input>
           )}
@@ -179,13 +179,13 @@ const Quote = () => {
             <Input
               error
               value={address}
-              placeholder="Address(*)"
+              placeholder="Địa chỉ(*)"
               onChange={addressHandler}
             ></Input>
           ) : (
             <Input
               value={address}
-              placeholder="Address(*)"
+              placeholder="Địa chỉ(*)"
               onChange={addressHandler}
             ></Input>
           )}
@@ -195,20 +195,20 @@ const Quote = () => {
             <Input
               error
               value={postCode}
-              placeholder="Postcode(*)"
+              placeholder="Mã bưu chính(*)"
               onChange={postCodeHandler}
             ></Input>
           ) : (
             <Input
               value={postCode}
-              placeholder="Postcode(*)"
+              placeholder="Mã bưu chính(*)"
               onChange={postCodeHandler}
             ></Input>
           )}
         </Form.Field>
         <div className="quote-bottom">
           <Button type="submit" className="send-btn">
-            &nbsp; SEND &nbsp;
+            &nbsp; Đăng ký &nbsp;
           </Button>
         </div>
       </Form>
@@ -218,20 +218,20 @@ const Quote = () => {
     <div className="quote-bg">
       <Form onSubmit={submitHandler}>
         <Form.Field className="quote-field">
-          <a href="tel:+64 800 765 567" rel="noopener noreferrer">
+          <a href="tel:097 137 2222" rel="noopener noreferrer">
             <div className="quote-phone">
               <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
-              &nbsp; 0800 765 567
+              &nbsp; 097 137 2222
             </div>
           </a>
         </Form.Field>
         <Form.Field>
-          <div className="quote-title">Book A Free Measure & Quote</div>
+          <div className="quote-title">ĐĂNG KÝ ĐO VÀ BÁO GIÁ MIỄN PHÍ</div>
         </Form.Field>
         <Form.Field className="quote-field">
           <Input
             value={fullName}
-            placeholder="Full name"
+            placeholder="Họ và tên"
             onChange={fullNameHandler}
           ></Input>
         </Form.Field>
@@ -240,13 +240,13 @@ const Quote = () => {
             <Input
               error
               value={phone}
-              placeholder="Phone number(*)"
+              placeholder="Số điện thoại(*)"
               onChange={phoneHandler}
             ></Input>
           ) : (
             <Input
               value={phone}
-              placeholder="Phone number(*)"
+              placeholder="Số điện thoại(*)"
               onChange={phoneHandler}
             ></Input>
           )}
@@ -272,13 +272,13 @@ const Quote = () => {
             <Input
               error
               value={address}
-              placeholder="Address(*)"
+              placeholder="Địa chỉ(*)"
               onChange={addressHandler}
             ></Input>
           ) : (
             <Input
               value={address}
-              placeholder="Address(*)"
+              placeholder="Địa chỉ(*)"
               onChange={addressHandler}
             ></Input>
           )}
@@ -288,20 +288,20 @@ const Quote = () => {
             <Input
               error
               value={postCode}
-              placeholder="Postcode(*)"
+              placeholder="Mã bưu chính(*)"
               onChange={postCodeHandler}
             ></Input>
           ) : (
             <Input
               value={postCode}
-              placeholder="Postcode(*)"
+              placeholder="Mã bưu chính(*)"
               onChange={postCodeHandler}
             ></Input>
           )}
         </Form.Field>
         <div className="quote-bottom">
           <Button type="submit" className="send-btn">
-            &nbsp; SEND &nbsp;
+            &nbsp; Đăng ký &nbsp;
           </Button>
         </div>
       </Form>
@@ -311,20 +311,20 @@ const Quote = () => {
     <div className="quote-bg">
       <Form onSubmit={submitHandler}>
         <Form.Field className="quote-field">
-          <a href="tel:+64 800 765 567" rel="noopener noreferrer">
+          <a href="tel:097 137 2222" rel="noopener noreferrer">
             <div className="quote-phone">
               <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
-              &nbsp; 0800 765 567
+              &nbsp; 097 137 2222
             </div>
           </a>
         </Form.Field>
         <Form.Field>
-          <div className="quote-title">Book A Free Measure & Quote</div>
+          <div className="quote-title">ĐĂNG KÝ ĐO VÀ BÁO GIÁ MIỄN PHÍ</div>
         </Form.Field>
         <Form.Field className="quote-field">
           <Input
             value={fullName}
-            placeholder="Full name"
+            placeholder="Họ và tên"
             onChange={fullNameHandler}
           ></Input>
         </Form.Field>
@@ -333,13 +333,13 @@ const Quote = () => {
             <Input
               error
               value={phone}
-              placeholder="Phone number(*)"
+              placeholder="Số điện thoại(*)"
               onChange={phoneHandler}
             ></Input>
           ) : (
             <Input
               value={phone}
-              placeholder="Phone number(*)"
+              placeholder="Số điện thoại(*)"
               onChange={phoneHandler}
             ></Input>
           )}
@@ -365,13 +365,13 @@ const Quote = () => {
             <Input
               error
               value={address}
-              placeholder="Address(*)"
+              placeholder="Địa chỉ(*)"
               onChange={addressHandler}
             ></Input>
           ) : (
             <Input
               value={address}
-              placeholder="Address(*)"
+              placeholder="Địa chỉ(*)"
               onChange={addressHandler}
             ></Input>
           )}
@@ -381,20 +381,20 @@ const Quote = () => {
             <Input
               error
               value={postCode}
-              placeholder="Postcode(*)"
+              placeholder="Mã bưu chính(*)"
               onChange={postCodeHandler}
             ></Input>
           ) : (
             <Input
               value={postCode}
-              placeholder="Postcode(*)"
+              placeholder="Mã bưu chính(*)"
               onChange={postCodeHandler}
             ></Input>
           )}
         </Form.Field>
         <div className="quote-bottom">
           <Button type="submit" className="send-btn">
-            &nbsp; SEND &nbsp;
+            &nbsp; Đăng ký &nbsp;
           </Button>
         </div>
       </Form>

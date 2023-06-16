@@ -12,39 +12,40 @@ const renderMobile = () => (
         <Grid.Row>
           <Grid.Column>
             <div className="CustomerFeedback-header">
-              Sit back, relax. Let us do it all.
-            </div>
-            <div className="CustomerFeedback-title">All expertly measured.</div>
-            <div className="CustomerFeedback-details">
-              We do the measuring and advise you on the perfect solution for
-              your window.
+              Hãy thư giãn và tận hưởng những gì chúng tôi mang đến cho bạn.
             </div>
             <div className="CustomerFeedback-title">
-              All tailor-made for you.
+              Đo đạc một cách chuyên nghiệp.
             </div>
             <div className="CustomerFeedback-details">
-              All our products are made to order for an exact fit.
+              Chúng tôi sẽ đo lường và tư vấn giải pháp tối ưu nhất cho cửa sổ
+              nhà bạn.
             </div>
             <div className="CustomerFeedback-title">
-              All fitted to perfection.
+              Thiết kế riêng đáp ứng phong cách của bạn.
             </div>
             <div className="CustomerFeedback-details">
-              We do the fitting, and all our products are fully guaranteed.
+              Tỉ mỉ hoàn thành với sự chính xác tối đa.
+            </div>
+            <div className="CustomerFeedback-title">Hướng tới sự hoàn hảo.</div>
+            <div className="CustomerFeedback-details">
+              Chúng tôi lắp đặt và bảo đảm toàn diện chất lượng các sản phẩm của
+              chúng tôi.
             </div>
 
             <br />
             <br />
             <a href={ROUTES.CONTACTUS} rel="noopener noreferrer">
-              <Button className="CustomerFeedback-button">
-                REQUEST AN APPOINTMENT
-              </Button>
+              <Button className="CustomerFeedback-button">Đặt lịch hẹn</Button>
             </a>
             <br />
             <br />
           </Grid.Column>
           <Grid.Column>
             <div className="CustomerFeedback-box">
-              <div className="CustomerFeedback-header">Happy Customers</div>
+              <div className="CustomerFeedback-header">
+                Những khách hàng hài lòng về chúng tôi
+              </div>
               <div className="CustomerFeedback-name">Li Quan</div>
               <div className="CustomerFeedback-stars">
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
@@ -54,9 +55,11 @@ const renderMobile = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                Great product and service! Love the final work which perfectly
-                matches the style of my brand new house! The team has done a
-                beautifully neat and tidy work! Highly recommended!
+                Chất lượng sản phẩm và dịch vụ tuyệt vời! Tôi rất hài lòng với
+                thành phẩm vì nó hoàn toàn phù hợp với phong cách ngôi nhà mới
+                của tôi. Rèm cửa Huy Hoàng Blinds đã hoàn thành công việc một
+                cách gọn gàng và ngăn nắp. Tôi rất khuyến khích các bạn trải
+                nghiệm sản phẩm và dịch vụ ở đây!
               </div>
               <br />
               <div className="CustomerFeedback-name">Nicolas C., Auckland</div>
@@ -68,10 +71,10 @@ const renderMobile = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                Excellent service, great product, best price! We are so happy to
-                have chosen Soho Blinds and the curtain products that the
-                company offered. I have already recommended Soho Blinds to
-                friends and family and will continue to do so.
+                Sản phẩm tốt, dịch vụ tuyệt vời và giá cả phải chăng! Chúng tôi
+                cảm thấy rất hài lòng vì đã tin tưởng lựa chọn Rèm cửa Huy Hoàng
+                và màn cửa của họ. Tôi đã và sẽ tiếp tục giới thiệu Rèm cửa Huy
+                Hoàng đến với gia đình và bạn bè của tôi.
               </div>
               <br />
               <div className="CustomerFeedback-name">Christine Keown</div>
@@ -83,9 +86,9 @@ const renderMobile = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                The price was really good. Communication was excellent. Product
-                was correct to order and works fine. The person we dealt with
-                was very pleasant to work with.
+                Mức giá rất hợp lý. Việc trao đổi giữa hai bên diễn ra khá thuận
+                lợi. Sản phẩm tốt và đúng như ý muốn. Nhân viên làm việc với
+                chúng tôi là một người rất dễ gần.
               </div>
             </div>
           </Grid.Column>
@@ -102,24 +105,25 @@ const renderTablet = () => (
         <Grid.Row>
           <Grid.Column>
             <div className="CustomerFeedback-header">
-              Sit back, relax. Let us do it all.
-            </div>
-            <div className="CustomerFeedback-title">All expertly measured.</div>
-            <div className="CustomerFeedback-details">
-              We do the measuring and advise you on the perfect solution for
-              your window.
+              Hãy thư giãn và tận hưởng những gì chúng tôi mang đến cho bạn.
             </div>
             <div className="CustomerFeedback-title">
-              All tailor-made for you.
+              Đo đạc một cách chuyên nghiệp.
             </div>
             <div className="CustomerFeedback-details">
-              All our products are made to order for an exact fit.
+              Chúng tôi sẽ đo lường và tư vấn giải pháp tối ưu nhất cho cửa sổ
+              nhà bạn.
             </div>
             <div className="CustomerFeedback-title">
-              All fitted to perfection.
+              Thiết kế riêng đáp ứng phong cách của bạn.
             </div>
             <div className="CustomerFeedback-details">
-              We do the fitting, and all our products are fully guaranteed.
+              Tỉ mỉ hoàn thành với sự chính xác tối đa.
+            </div>
+            <div className="CustomerFeedback-title">Hướng tới sự hoàn hảo.</div>
+            <div className="CustomerFeedback-details">
+              Chúng tôi lắp đặt và bảo đảm toàn diện chất lượng các sản phẩm của
+              chúng tôi.
             </div>
 
             <br />
@@ -142,9 +146,11 @@ const renderTablet = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                Great product and service! Love the final work which perfectly
-                matches the style of my brand new house! The team has done a
-                beautifully neat and tidy work! Highly recommended!
+                Chất lượng sản phẩm và dịch vụ tuyệt vời! Tôi rất hài lòng với
+                thành phẩm vì nó hoàn toàn phù hợp với phong cách ngôi nhà mới
+                của tôi. Rèm cửa Huy Hoàng Blinds đã hoàn thành công việc một
+                cách gọn gàng và ngăn nắp. Tôi rất khuyến khích các bạn trải
+                nghiệm sản phẩm và dịch vụ ở đây!
               </div>
               <br />
               <div className="CustomerFeedback-name">Nicolas C., Auckland</div>
@@ -156,10 +162,10 @@ const renderTablet = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                Excellent service, great product, best price! We are so happy to
-                have chosen Soho Blinds and the curtain products that the
-                company offered. I have already recommended Soho Blinds to
-                friends and family and will continue to do so.
+                Sản phẩm tốt, dịch vụ tuyệt vời và giá cả phải chăng! Chúng tôi
+                cảm thấy rất hài lòng vì đã tin tưởng lựa chọn Rèm cửa Huy Hoàng
+                và màn cửa của họ. Tôi đã và sẽ tiếp tục giới thiệu Rèm cửa Huy
+                Hoàng đến với gia đình và bạn bè của tôi.
               </div>
               <br />
               <div className="CustomerFeedback-name">Christine Keown</div>
@@ -171,9 +177,9 @@ const renderTablet = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                The price was really good. Communication was excellent. Product
-                was correct to order and works fine. The person we dealt with
-                was very pleasant to work with.
+                Mức giá rất hợp lý. Việc trao đổi giữa hai bên diễn ra khá thuận
+                lợi. Sản phẩm tốt và đúng như ý muốn. Nhân viên làm việc với
+                chúng tôi là một người rất dễ gần.
               </div>
             </div>
           </Grid.Column>
@@ -190,37 +196,38 @@ const renderDesktop = () => (
         <Grid.Row>
           <Grid.Column>
             <div className="CustomerFeedback-header">
-              Sit back, relax. Let us do it all.
-            </div>
-            <div className="CustomerFeedback-title">All expertly measured.</div>
-            <div className="CustomerFeedback-details">
-              We do the measuring and advise you on the perfect solution for
-              your window.
+              Hãy thư giãn và tận hưởng những gì chúng tôi mang đến cho bạn.
             </div>
             <div className="CustomerFeedback-title">
-              All tailor-made for you.
+              Đo đạc một cách chuyên nghiệp.
             </div>
             <div className="CustomerFeedback-details">
-              All our products are made to order for an exact fit.
+              Chúng tôi sẽ đo lường và tư vấn giải pháp tối ưu nhất cho cửa sổ
+              nhà bạn.
             </div>
             <div className="CustomerFeedback-title">
-              All fitted to perfection.
+              Thiết kế riêng đáp ứng phong cách của bạn.
             </div>
             <div className="CustomerFeedback-details">
-              We do the fitting, and all our products are fully guaranteed.
+              Tỉ mỉ hoàn thành với sự chính xác tối đa.
+            </div>
+            <div className="CustomerFeedback-title">Hướng tới sự hoàn hảo.</div>
+            <div className="CustomerFeedback-details">
+              Chúng tôi lắp đặt và bảo đảm toàn diện chất lượng các sản phẩm của
+              chúng tôi.
             </div>
 
             <br />
             <br />
             <a href={ROUTES.CONTACTUS} rel="noopener noreferrer">
-              <Button className="CustomerFeedback-button">
-                REQUEST AN APPOINTMENT
-              </Button>
+              <Button className="CustomerFeedback-button">Đặt lịch hẹn</Button>
             </a>
           </Grid.Column>
           <Grid.Column>
             <div className="CustomerFeedback-box">
-              <div className="CustomerFeedback-header">Happy Customers</div>
+              <div className="CustomerFeedback-header">
+                Những khách hàng hài lòng về chúng tôi
+              </div>
 
               <div className="CustomerFeedback-name">Li Quan</div>
               <div className="CustomerFeedback-stars">
@@ -231,9 +238,11 @@ const renderDesktop = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                Great product and service! Love the final work which perfectly
-                matches the style of my brand new house! The team has done a
-                beautifully neat and tidy work! Highly recommended!
+                Chất lượng sản phẩm và dịch vụ tuyệt vời! Tôi rất hài lòng với
+                thành phẩm vì nó hoàn toàn phù hợp với phong cách ngôi nhà mới
+                của tôi. Rèm cửa Huy Hoàng Blinds đã hoàn thành công việc một
+                cách gọn gàng và ngăn nắp. Tôi rất khuyến khích các bạn trải
+                nghiệm sản phẩm và dịch vụ ở đây!
               </div>
               <br />
               <div className="CustomerFeedback-name">Nicolas C., Auckland</div>
@@ -245,10 +254,10 @@ const renderDesktop = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                Excellent service, great product, best price! We are so happy to
-                have chosen Soho Blinds and the curtain products that the
-                company offered. I have already recommended Soho Blinds to
-                friends and family and will continue to do so.
+                Sản phẩm tốt, dịch vụ tuyệt vời và giá cả phải chăng! Chúng tôi
+                cảm thấy rất hài lòng vì đã tin tưởng lựa chọn Rèm cửa Huy Hoàng
+                và màn cửa của họ. Tôi đã và sẽ tiếp tục giới thiệu Rèm cửa Huy
+                Hoàng đến với gia đình và bạn bè của tôi.
               </div>
               <br />
               <div className="CustomerFeedback-name">Christine Keown</div>
@@ -260,9 +269,9 @@ const renderDesktop = () => (
                 <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
               </div>
               <div className="CustomerFeedback-desc">
-                The price was really good. Communication was excellent. Product
-                was correct to order and works fine. The person we dealt with
-                was very pleasant to work with.
+                Mức giá rất hợp lý. Việc trao đổi giữa hai bên diễn ra khá thuận
+                lợi. Sản phẩm tốt và đúng như ý muốn. Nhân viên làm việc với
+                chúng tôi là một người rất dễ gần.
               </div>
             </div>
           </Grid.Column>

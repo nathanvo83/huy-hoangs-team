@@ -25,7 +25,7 @@ const Promotion = () => {
                   <FontAwesomeIcon icon={faHandHoldingUsd}></FontAwesomeIcon>
                 </div>
                 <div className="promotion-body">
-                  <div className="promotion-title-m">BEST PRICE</div>
+                  <div className="promotion-title-m">GIÁ CẢ TỐI ƯU</div>
                 </div>
               </div>
             </Grid.Column>
@@ -35,7 +35,7 @@ const Promotion = () => {
                   <FontAwesomeIcon icon={faUserShield}></FontAwesomeIcon>
                 </div>
                 <div className="promotion-body">
-                  <div className="promotion-title-m">CHILDSAFE</div>
+                  <div className="promotion-title-m">AN TOÀN CHO TRẺ NHỎ</div>
                 </div>
               </div>
             </Grid.Column>
@@ -45,7 +45,7 @@ const Promotion = () => {
                   <FontAwesomeIcon icon={faSmileWink}></FontAwesomeIcon>
                 </div>
                 <div className="promotion-body">
-                  <div className="promotion-title-m">Satisfaction</div>
+                  <div className="promotion-title-m">HÀI LÒNG</div>
                 </div>
               </div>
             </Grid.Column>
@@ -64,7 +64,7 @@ const Promotion = () => {
                   <FontAwesomeIcon icon={faHandHoldingUsd}></FontAwesomeIcon>
                 </div>
                 <div className="promotion-body">
-                  <div className="promotion-title-m">BEST PRICE</div>
+                  <div className="promotion-title-m">GIÁ CẢ TỐI ƯU</div>
                 </div>
               </div>
             </Grid.Column>
@@ -74,7 +74,7 @@ const Promotion = () => {
                   <FontAwesomeIcon icon={faUserShield}></FontAwesomeIcon>
                 </div>
                 <div className="promotion-body">
-                  <div className="promotion-title-m">CHILDSAFE</div>
+                  <div className="promotion-title-m">AN TOÀN CHO TRẺ NHỎ</div>
                 </div>
               </div>
             </Grid.Column>
@@ -84,7 +84,7 @@ const Promotion = () => {
                   <FontAwesomeIcon icon={faSmileWink}></FontAwesomeIcon>
                 </div>
                 <div className="promotion-body">
-                  <div className="promotion-title-m">Satisfaction</div>
+                  <div className="promotion-title-m">HÀI LÒNG</div>
                 </div>
               </div>
             </Grid.Column>
@@ -101,13 +101,11 @@ const Promotion = () => {
                     <FontAwesomeIcon icon={faHandHoldingUsd}></FontAwesomeIcon>
                   </div>
                   <div className="promotion-body">
-                    <div className="promotion-title">
-                      LOWEST PRICE GUARANTEE
-                    </div>
+                    <div className="promotion-title">GIÁ CẢ TỐI ƯU</div>
                     <div className="promotion-subtitle">
-                      Find any cheaper price in NZ?
+                      Bạn tìm thấy giá rẻ hơn ở nơi khác?
                       <br />
-                      We beat it by 15%.
+                      Chúng tôi tặng bạn ưu đãi 15%
                     </div>
                   </div>
                 </div>
@@ -120,11 +118,11 @@ const Promotion = () => {
                     <FontAwesomeIcon icon={faUserShield}></FontAwesomeIcon>
                   </div>
                   <div className="promotion-body">
-                    <div className="promotion-title">CHILDSAFE</div>
+                    <div className="promotion-title">AN TOÀN CHO TRẺ NHỎ</div>
                     <div className="promotion-subtitle">
-                      We take the matter of child
+                      An toàn của con em bạn
                       <br />
-                      safety very seriously.
+                      là ưu tiên hàng đầu của chúng tôi.
                     </div>
                   </div>
                 </div>
@@ -137,11 +135,11 @@ const Promotion = () => {
                     <FontAwesomeIcon icon={faSmileWink}></FontAwesomeIcon>
                   </div>
                   <div className="promotion-body">
-                    <div className="promotion-title">Satisfaction</div>
+                    <div className="promotion-title">HÀI LÒNG</div>
                     <div className="promotion-subtitle">
-                      Kiwis Love Soho Blind
+                      Mọi người yêu thích Rèm Cửa Huy Hoàng
                       <br />
-                      Over 90% give us a 5-star rating.
+                      Hơn 90% khách hàng đánh giá 5 sao.
                     </div>
                   </div>
                 </div>
