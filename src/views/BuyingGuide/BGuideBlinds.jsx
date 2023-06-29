@@ -13,6 +13,7 @@ const BGuideBlinds = () => {
       <BGuide02></BGuide02>
       <BGuide03></BGuide03>
       <BGuide04></BGuide04>
+      <br />
     </React.Fragment>
   );
 };

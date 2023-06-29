@@ -2,15 +2,13 @@ import React from "react";
 import "./Section04.css";
 import { showroom } from "../../data/showroom";
 import { Responsive, Grid } from "semantic-ui-react";
-import {
-  faCheckCircle,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const renderMobile = () => (
   <div className="section04">
     <div className="section04-container-m">
-      <div className="section04-header">Why people choose us</div>
+      <div className="section04-header">Vì sao bạn nên chọn chúng tôi</div>
 
       <Grid columns="1" style={{ margin: 0 }}>
         <Grid.Row>
@@ -117,7 +115,7 @@ const renderMobile = () => (
 const renderTablet = () => (
   <div className="section04">
     <div className="section04-container-t">
-      <div className="section04-header">Why people choose us</div>
+      <div className="section04-header">Vì sao bạn nên chọn chúng tôi</div>
 
       <Grid columns="2">
         <Grid.Row>
@@ -224,7 +222,7 @@ const renderTablet = () => (
 const renderDesktop = () => (
   <div className="section04">
     <div className="section04-container">
-      <div className="section04-header">Why people choose us</div>
+      <div className="section04-header">Vì sao bạn nên chọn chúng tôi</div>
 
       <Grid columns="2">
         <Grid.Row>

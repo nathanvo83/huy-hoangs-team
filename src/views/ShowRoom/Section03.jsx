@@ -9,9 +9,7 @@ import h_03 from "../../assets/images/showroom/section03_3.jpg";
 const renderMobile = () => (
   <div className="section03">
     <div className="section03-container-m">
-      <div className="section03-title">
-        What to do next
-      </div>
+      <div className="section03-title">Bạn nên làm gì tiếp theo</div>
 
       <div className="section03-gallery-image">
         <Grid columns="1" style={{ margin: 0 }}>
@@ -25,10 +23,10 @@ const renderMobile = () => (
                   </div>
                 </div>
                 <div className="section-header-details">
-                  1. Book a free in-home appointment
+                  1. Đặt một lịch hẹn tại nhà miễn phí
                 </div>
                 <div className="section03-item-details">
-                  Choose a time that suits you, including evenings and weekends.
+                  Chọn thời gian phù hợp với bạn, kể cả buổi tối và cuối tuần
                 </div>
               </div>
             </Grid.Column>
@@ -44,11 +42,12 @@ const renderMobile = () => (
                   </div>
                 </div>
                 <div className="section-header-details">
-                  2. Get expert advice
+                  2. Nhận lời khuyên từ chuyên gia
                 </div>
                 <div className="section03-item-details">
-                  Your local advisor will bring all our samples to your appointment.
-                  They'll measure your windows and leave you with a quote for all your favourite looks.
+                  Cố vấn viên địa phương của bạn sẽ mang đến tất cả hàng mẫu. Họ
+                  sẽ đo đạc cửa sổ và báo giá cho bạn những thiết kế mà bạn ưng
+                  ý.
                 </div>
               </div>
             </Grid.Column>
@@ -63,12 +62,12 @@ const renderMobile = () => (
                   </div>
                 </div>
                 <div className="section-header-details">
-                  3. Professional fitting included
+                  3. Lắp đặt chuyên nghiệp đã được bao gồm
                 </div>
                 <div className="section03-item-details">
-                  Once your order is ready, your advisor will take care of fitting
-                  - at a time that suits you
-                  - so you can expect a perfect finish.
+                  Một khi thành phẩm đã sẵn sàng, cố vấn viên của chúng tôi sẽ
+                  lo liệu việc lắp đặt vào thời gian bạn mong muốn vì vậy bạn có
+                  thể mong đợi một thành phẩm hoàn hảo.
                 </div>
               </div>
             </Grid.Column>
@@ -82,9 +81,7 @@ const renderMobile = () => (
 const renderTablet = () => (
   <div className="section03">
     <div className="section03-container-t">
-      <div className="section03-title">
-        What to do next
-      </div>
+      <div className="section03-title">Bạn nên làm gì tiếp theo</div>
 
       <div className="section03-gallery-image">
         <Grid columns="1" style={{ margin: 0 }}>
@@ -98,10 +95,10 @@ const renderTablet = () => (
                   </div>
                 </div>
                 <div className="section-header-details">
-                  1. Book a free in-home appointment
+                  1. Đặt một lịch hẹn tại nhà miễn phí
                 </div>
                 <div className="section03-item-details">
-                  Choose a time that suits you, including evenings and weekends.
+                  Chọn thời gian phù hợp với bạn, kể cả buổi tối và cuối tuần
                 </div>
               </div>
             </Grid.Column>
@@ -117,11 +114,12 @@ const renderTablet = () => (
                   </div>
                 </div>
                 <div className="section-header-details">
-                  2. Get expert advice
+                  2. Nhận lời khuyên từ chuyên gia
                 </div>
                 <div className="section03-item-details">
-                  Your local advisor will bring all our samples to your appointment.
-                  They'll measure your windows and leave you with a quote for all your favourite looks.
+                  Cố vấn viên địa phương của bạn sẽ mang đến tất cả hàng mẫu. Họ
+                  sẽ đo đạc cửa sổ và báo giá cho bạn những thiết kế mà bạn ưng
+                  ý.
                 </div>
               </div>
             </Grid.Column>
@@ -136,12 +134,12 @@ const renderTablet = () => (
                   </div>
                 </div>
                 <div className="section-header-details">
-                  3. Professional fitting included
+                  3. Lắp đặt chuyên nghiệp đã được bao gồm
                 </div>
                 <div className="section03-item-details">
-                  Once your order is ready, your advisor will take care of fitting
-                  - at a time that suits you
-                  - so you can expect a perfect finish.
+                  Một khi thành phẩm đã sẵn sàng, cố vấn viên của chúng tôi sẽ
+                  lo liệu việc lắp đặt vào thời gian bạn mong muốn vì vậy bạn có
+                  thể mong đợi một thành phẩm hoàn hảo.
                 </div>
               </div>
             </Grid.Column>
@@ -155,9 +153,7 @@ const renderTablet = () => (
 const renderDesktop = () => (
   <div className="section03">
     <div className="section03-container">
-      <div className="section03-title">
-        What to do next
-      </div>
+      <div className="section03-title">Bạn nên làm gì tiếp theo</div>
 
       <div className="section03-gallery-image">
         <Grid columns="3">
@@ -166,15 +162,19 @@ const renderDesktop = () => (
               <div className="col-container">
                 <div>
                   <div className="section03-image-box">
-                    <img className="section03-image" src={h_01} alt="Book an Appointment" />
+                    <img
+                      className="section03-image"
+                      src={h_01}
+                      alt="Book an Appointment"
+                    />
                     <div className="section03-image-cover"></div>
                   </div>
                 </div>
                 <div className="section-header-details">
-                  1. Book a free in-home appointment
+                  1. Đặt một lịch hẹn tại nhà miễn phí
                 </div>
                 <div className="section03-item-details">
-                  Choose a time that suits you, including evenings and weekends.
+                  Chọn thời gian phù hợp với bạn, kể cả buổi tối và cuối tuần
                 </div>
               </div>
             </Grid.Column>
@@ -182,16 +182,21 @@ const renderDesktop = () => (
               <div className="col-container">
                 <div>
                   <div className="section03-image-box">
-                    <img className="section03-image" src={h_02} alt="Get Expert Advice" />
+                    <img
+                      className="section03-image"
+                      src={h_02}
+                      alt="Get Expert Advice"
+                    />
                     <div className="section03-image-cover"></div>
                   </div>
                 </div>
                 <div className="section-header-details">
-                  2. Get expert advice
+                  2. Nhận lời khuyên từ chuyên gia
                 </div>
                 <div className="section03-item-details">
-                  Your local advisor will bring all our samples to your appointment.
-                  They'll measure your windows and leave you with a quote for all your favourite looks.
+                  Cố vấn viên địa phương của bạn sẽ mang đến tất cả hàng mẫu. Họ
+                  sẽ đo đạc cửa sổ và báo giá cho bạn những thiết kế mà bạn ưng
+                  ý.
                 </div>
               </div>
             </Grid.Column>
@@ -199,17 +204,21 @@ const renderDesktop = () => (
               <div className="col-container">
                 <div>
                   <div className="section03-image-box">
-                    <img className="section03-image" src={h_03} alt="Professional fitting" />
+                    <img
+                      className="section03-image"
+                      src={h_03}
+                      alt="Professional fitting"
+                    />
                     <div className="section03-image-cover"></div>
                   </div>
                 </div>
                 <div className="section-header-details">
-                  3. Professional fitting included
+                  3. Lắp đặt chuyên nghiệp đã được bao gồm
                 </div>
                 <div className="section03-item-details">
-                  Once your order is ready, your advisor will take care of fitting
-                  - at a time that suits you
-                  - so you can expect a perfect finish.
+                  Một khi thành phẩm đã sẵn sàng, cố vấn viên của chúng tôi sẽ
+                  lo liệu việc lắp đặt vào thời gian bạn mong muốn vì vậy bạn có
+                  thể mong đợi một thành phẩm hoàn hảo.
                 </div>
               </div>
             </Grid.Column>

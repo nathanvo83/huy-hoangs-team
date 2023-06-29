@@ -11,7 +11,7 @@ const Com03 = (props) => {
         {/* mobile */}
         <Responsive maxWidth={Responsive.onlyMobile.maxWidth}>
           <Grid columns="1">
-            <div className="details-title">Our Collection</div>
+            <div className="details-title">BỘ SƯU TẬP CỦA CHÚNG TÔI</div>
             <Grid.Row>
               {images.map((item, idx) => (
                 <Grid.Column className="col-x" key={idx}>
@@ -33,7 +33,7 @@ const Com03 = (props) => {
           maxWidth={Responsive.onlyTablet.maxWidth}
         >
           <Grid columns="2" style={{ margin: 0 }}>
-            <div className="details-title">Our Collection</div>
+            <div className="details-title">BỘ SƯU TẬP CỦA CHÚNG TÔI</div>
             <Grid.Row>
               {images.map((item, idx) => (
                 <Grid.Column className="col-x" key={idx}>
@@ -53,7 +53,7 @@ const Com03 = (props) => {
         <Responsive minWidth={Responsive.onlyComputer.minWidth}>
           <div className="com03-gallery-image">
             <Grid columns="4">
-              <div className="details-title">Our Collection</div>
+              <div className="details-title">BỘ SƯU TẬP CỦA CHÚNG TÔI</div>
               <Grid.Row>
                 {images.map((item, idx) => (
                   <Grid.Column className="col-x" key={idx}>

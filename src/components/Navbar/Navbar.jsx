@@ -69,7 +69,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Roller Blinds
+                &nbsp; MÀNH CUỐN
               </a>
               <a
                 href={ROUTES.MOTORISED_ROLLER}
@@ -83,7 +83,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Motorised Roller Blinds
+                &nbsp; MÀNH CUỐN CÓ ĐỘNG CƠ
               </a>
               <a
                 href={ROUTES.BLINDS_VENETIAN}
@@ -97,7 +97,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Venetian Blinds
+                &nbsp; MÀNH SÁO NGANG
               </a>
               <a
                 href={ROUTES.BLINDS_VERTICAL}
@@ -111,7 +111,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Vertical Blinds
+                &nbsp; MÀNH LÁ DỌC
               </a>
               <a
                 href={ROUTES.BLINDS_ZEBRA}
@@ -123,7 +123,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Zebra Blinds
+                &nbsp; MÀNH CẦU VỒNG
               </a>
             </div>
           </div>
@@ -144,7 +144,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Day Curtains
+                &nbsp; MÀN VOAN
               </a>
               <a
                 href={ROUTES.CURTAIN_NIGHT}
@@ -156,7 +156,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Night Curtains
+                &nbsp; MÀN CHỐNG NẮNG VÀ NÓNG
               </a>
             </div>
           </div>
@@ -179,7 +179,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Timber Shutters
+                &nbsp; CỬA CHỚP GỖ
               </a>
               <a
                 href={ROUTES.SHUTTER_PVC}
@@ -191,53 +191,10 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; PVC Shutters
+                &nbsp; CỬA CHỚP NHỰA PVC
               </a>
-              {/* <a
-                href={ROUTES.SHUTTER_EXTERIOR}
-                rel="noopener noreferrer"
-                onClick={closeBurgerMenu}
-              >
-                <FontAwesomeIcon
-                  icon={faAngleDoubleRight}
-                  className="pulled"
-                ></FontAwesomeIcon>
-                &nbsp; Exterior Shutters
-              </a> */}
             </div>
           </div>
-
-          {/* <div className="dropdown">
-            <button className="dropbtn">
-              Collections&nbsp;
-              <FontAwesomeIcon icon={faCaretDown}></FontAwesomeIcon>
-            </button>
-            <div className="dropdown-content">
-              <a
-                href={ROUTES.PROJECTS}
-                rel="noopener noreferrer"
-                onClick={closeBurgerMenu}
-              >
-                <FontAwesomeIcon
-                  icon={faAngleDoubleRight}
-                  className="pulled"
-                ></FontAwesomeIcon>
-                &nbsp; Projects
-              </a>
-              <a
-                href={ROUTES.HOUZZ_REVIEWS}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={closeBurgerMenu}
-              >
-                <FontAwesomeIcon
-                  icon={faAngleDoubleRight}
-                  className="pulled"
-                ></FontAwesomeIcon>
-                &nbsp; Reviews
-              </a>
-            </div>
-          </div> */}
           <a
             href={ROUTES.PROJECTS}
             rel="noopener noreferrer"
@@ -249,7 +206,7 @@ const Navbar = () => {
 
           <div className="dropdown">
             <button className="dropbtn">
-              Buying Guide&nbsp;
+              Hướng dẫn&nbsp;
               <FontAwesomeIcon icon={faCaretDown}></FontAwesomeIcon>
             </button>
             <div className="dropdown-content">
@@ -265,7 +222,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Blinds
+                &nbsp; Mành Cuốn
               </a>
               <a
                 href={ROUTES.BUYINGGUIDE_CURTAINS}
@@ -279,7 +236,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Curtains
+                &nbsp; MÀN CỬA
               </a>
               <a
                 href={ROUTES.BUYINGGUIDE_SHUTTERS}
@@ -293,7 +250,7 @@ const Navbar = () => {
                   icon={faAngleDoubleRight}
                   className="pulled"
                 ></FontAwesomeIcon>
-                &nbsp; Shutters
+                &nbsp; CỬA CHỚP
               </a>
             </div>
           </div>

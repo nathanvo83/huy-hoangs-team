@@ -4,7 +4,7 @@ import "./Com02.css";
 import Tab01 from "./Tab01";
 import Tab02 from "./Tab02";
 
-const Com02 = props => {
+const Com02 = (props) => {
   const { title, tab01, tab02, content01, content02 } = props;
 
   const [activeItem, setActiveItem] = useState(tab01);

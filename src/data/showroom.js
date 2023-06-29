@@ -3,32 +3,30 @@ export const showroom = {
     item_01: {
       title: "Our Range",
       content:
-        "Browse our range of blinds, curtains and shutters and order free samples before you move in"
+        "Duyệt qua loạt mành, màn cửa và cửa chớp của chúng tôi và đặt mẫu miễn phí trước khi bạn chuyển tới",
     },
     item_02: {
       title: "Appointments",
-      content:
-        "Appointments available from the day you get your keys"
+      content: "Các cuộc hẹn có hiệu lực kể từ ngày bạn nhận được chìa khóa",
     },
     item_03: {
       title: "Many Options",
       content:
-        "Options for every budget, including blackout, thermal and privacy solutions"
+        "Sự lựa chọn cho mọi ngân sách, bao gồm mành kín, mành cách nhiệt và giải pháp cho sự riêng tư",
     },
     item_04: {
       title: "Flexible Appointments",
       content:
-        "Flexible appointments to suit you, including evenings and weekends"
+        "Thành phẩm chính xác ngay từ lần đầu tiên với sự đo đạc và lắp đặt bởi chuyên gia",
     },
     item_05: {
       title: "Multi-blind Discount",
-      content:
-        "Our multi-blind discount will help your budget go further"
+      content: "Chính sách giảm giá của chúng tôi nới rộng ngân sách của bạn",
     },
     item_06: {
       title: "Expert Measuring",
       content:
-        "Get it right the first time with expert measuring and fitting"
-    }
-  }
+        "Các cuộc hẹn được sắp xếp linh hoạt phù hợp với thời gian của bạn, bao gồm cả buổi tối và cuối tuần",
+    },
+  },
 };

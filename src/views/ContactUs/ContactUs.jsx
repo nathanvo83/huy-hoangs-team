@@ -112,13 +112,13 @@ const ContactUs = () => {
     <div className="contact-form">
       <Form onSubmit={submitHandler}>
         <Form.Field className="contact-field">
-          <div className="contact-field-title">Your name:</div>
+          <div className="contact-field-title">Họ và tên:</div>
         </Form.Field>
         <Form.Field className="contact-field">
           <Input
             value={yourName}
             onChange={yourNameHandler}
-            placeholder="Yourname"
+            placeholder="Họ và tên"
           ></Input>
         </Form.Field>
 
@@ -143,7 +143,7 @@ const ContactUs = () => {
         </Form.Field>
 
         <Form.Field className="contact-field">
-          <div className="contact-field-title">Phone:</div>
+          <div className="contact-field-title">Số điện thoại:</div>
         </Form.Field>
         <Form.Field className="contact-field">
           {errorPhone ? (
@@ -151,42 +151,42 @@ const ContactUs = () => {
               error
               value={phone}
               onChange={phoneHandler}
-              placeholder="Phone (*)"
+              placeholder="Số điện thoại (*)"
             ></Input>
           ) : (
             <Input
               value={phone}
               onChange={phoneHandler}
-              placeholder="Phone (*)"
+              placeholder="Số điện thoại (*)"
             ></Input>
           )}
         </Form.Field>
 
         <Form.Field className="contact-field">
-          <div className="contact-field-title">Subject:</div>
+          <div className="contact-field-title">Chủ đề:</div>
         </Form.Field>
         <Form.Field className="contact-field">
           <Input
             value={subject}
             onChange={subjectHandler}
-            placeholder="Subject"
+            placeholder="Chủ đề"
           ></Input>
         </Form.Field>
 
         <Form.Field className="contact-field">
-          <div className="contact-field-title">Your Message:</div>
+          <div className="contact-field-title">Nội dung:</div>
         </Form.Field>
         <Form.Field className="contact-field">
           <TextArea
             value={query}
             onChange={queryHandler}
-            placeholder="Your Message"
+            placeholder="Nội dung"
           ></TextArea>
         </Form.Field>
 
         <div className="contact-bottom">
           <Button type="submit" className="contact-send-btn">
-            &nbsp; SEND &nbsp;
+            &nbsp; GỬI &nbsp;
           </Button>
         </div>
       </Form>
@@ -195,39 +195,41 @@ const ContactUs = () => {
 
   const renderDetails = () => (
     <div className="contact-details">
-      <div className="contact-details-title">What to expect</div>
+      <div className="contact-details-title">Bạn sẽ nhận được gì</div>
       <div>
-        Our advisors job is to make your life as easy as possible, with
-        inspiring ideas and practical solutions for your home.
+        Công việc của cố vấn chúng tôi là làm cho cuộc sống của bạn dễ dàng nhất
+        có thể với những ý tưởng đầy cảm hứng và giải pháp thiết thực cho ngôi
+        nhà của bạn.
       </div>
-      <div className="contact-details-subtitle">Your advisor will</div>
+      <div className="contact-details-subtitle">Cố vấn viên của bạn sẽ</div>
       <div className="contact-details-item">
         <FontAwesomeIcon icon={faHeart} className="contact-details-icon" />
-        Take a relaxed approach, offering inspiring ideas and practical
-        solutions
-      </div>
-      <div className="contact-details-item">
-        <FontAwesomeIcon icon={faHeart} className="contact-details-icon" />
-        Stay as long as you need, usually only around 45 minutes (a little
-        longer for shutters and conservatory roof blinds)
+        Tiếp cận bạn một cách thoải mái, đưa ra những ý tưởng đầy cảm hứng và
+        giải pháp thiết thực
       </div>
       <div className="contact-details-item">
         <FontAwesomeIcon icon={faHeart} className="contact-details-icon" />
-        Measure your windows
+        Đồng hành với bạn xuyên suốt thời gian bạn cần, thường rơi vào khoảng 45
+        phút (thời gian sẽ lâu hơn một chút đối với cửa chớp và rèm mái nhà
+        kính)
       </div>
       <div className="contact-details-item">
         <FontAwesomeIcon icon={faHeart} className="contact-details-icon" />
-        Provide an accurate quote for your chosen product
+        Đo cửa sổ của bạn
+      </div>
+      <div className="contact-details-item">
+        <FontAwesomeIcon icon={faHeart} className="contact-details-icon" />
+        Cung cấp báo giá chính xác cho sản phẩm bạn đã chọn
       </div>
     </div>
   );
 
   const renderTitle = () => (
     <div>
-      <div className="contact-title">Book A Free Measure & Quote</div>
+      <div className="contact-title">ĐĂNG KÝ ĐO ĐẠC VÀ BÁO GIÁ MIỄN PHÍ</div>
       <div className="contact-subtitle">
-        Call 0800 765 567 or fill out the form below and a Soho sales
-        representative will contact you.
+        Gọi ngay số 097 137 2222 hoặc điền vào mẫu dưới đây để người đại diện
+        kinh doanh của Rèm cửa Huy Hoàng liên hệ với bạn.
       </div>
     </div>
   );
@@ -235,11 +237,12 @@ const ContactUs = () => {
   const renderNote = () => {
     return (
       <div className="contact-note">
-        *Terms and Conditions apply. Product design specifications and colours
-        are subject to change without notice and may vary from those shown.
-        Images displayed on website pages are for illustration purposes only.
-        Images are intended to help illustrate how various products appear and
-        how they can be applied in different situations.
+        *Điều khoản và điều kiện áp dụng. Thông số kỹ thuật và màu sắc thiết kế
+        sản phẩm có thể thay đổi mà không cần thông báo trước và có thể khác với
+        những gì được hiển thị. Hình ảnh hiển thị trên trang web chỉ nhằm mục
+        đích minh họa. Hình ảnh nhằm giúp minh họa cách các sản phẩm khác nhau
+        xuất hiện và cách chúng có thể được áp dụng trong các tình huống khác
+        nhau.
       </div>
     );
   };
@@ -248,17 +251,17 @@ const ContactUs = () => {
     return (
       <div id="contact-showroom" className={`contact-showroom ${type}`}>
         <div className="title">
-          <div className="text">showroom</div>
+          <div className="text">SHOWROOM</div>
         </div>
 
         <div className="content">
           <div>
-            <FontAwesomeIcon icon={faHome} className="icon" /> 25/183
-            Karangahape Road, Auckland CBD, Auckland 1010.
+            <FontAwesomeIcon icon={faHome} className="icon" /> Số 647 Điện Biên
+            Phủ, Phường 1, Quận 3, Thành phố Hồ Chí Minh.
           </div>
           <div>
-            <FontAwesomeIcon icon={faClock} className="icon" /> Visit by
-            appointment only.
+            <FontAwesomeIcon icon={faClock} className="icon" /> Vui lòng đặt
+            lịch hẹn trước để chúng tôi có thể hỗ trợ bạn tốt nhất.
           </div>
         </div>
       </div>

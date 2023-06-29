@@ -35,7 +35,7 @@ const ShowRoom = () => {
         href={ROUTES.CONTACTUS + "#contact-showroom"}
         rel="noopener noreferrer"
       >
-        <div className="quote-button">Book A Free Measure & Quote</div>
+        <div className="quote-button">ĐĂNG KÝ ĐO VÀ BÁO GIÁ MIỄN PHÍ</div>
       </a>
     </div>
   );
@@ -56,17 +56,17 @@ const ShowRoom = () => {
     return (
       <div className={`contact-showroom ${type}`}>
         <div className="title">
-          <div className="text">showroom</div>
+          <div className="text">SHOWROOM</div>
         </div>
 
         <div className="content">
           <div>
-            <FontAwesomeIcon icon={faHome} className="icon" /> 25/183
-            Karangahape Road, Auckland CBD, Auckland 1010.
+            <FontAwesomeIcon icon={faHome} className="icon" /> Số 647 Điện Biên
+            Phủ, Phường 1, Quận 3, Thành phố Hồ Chí Minh
           </div>
           <div>
-            <FontAwesomeIcon icon={faClock} className="icon" /> Visit by
-            appointment only.
+            <FontAwesomeIcon icon={faClock} className="icon" /> Vui lòng đặt
+            lịch hẹn trước để chúng tôi có thể hỗ trợ bạn tốt nhất.
           </div>
         </div>
       </div>

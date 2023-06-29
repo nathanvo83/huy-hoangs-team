@@ -1,24 +1,24 @@
 export const motorisedRollerBlinds = {
   overview: {
     titles: [
-      "Style and Functionality",
-      "Privacy",
-      "Convenience",
-      "Versatility",
+      "Phong cách và Chức năng",
+      "Sự riêng tư",
+      "Sự tiện lợi",
+      "Tính linh hoạt",
     ],
     contents: [
-      "Motorised roller blinds are the ultimate in luxury, sophistication, and convenience. They look fantastic, there are no wires or complex installations, and you have complete control over their operation using a remote, a hub device, or your voice.",
-      "Certain materials such as block out roller blinds give you total privacy right when you need it.",
-      "Motorised roller blinds are the most convenient and easiest to operate option that you can choose. Operation is via a remote, with a quiet and carefully concealed motor doing the job of either opening or closing your blinds. Opening and closing can even be automated.",
-      "Roller blinds are flexible – they can cover multiple windows or individual large ones. They can be synchronised, separated or even operated in sequence. For motorised roller blinds, they can be operated by rechargeable battery or mains power. Either way, they are easy to manage.",
+      "Mành Cuốn có động cơ là sự lựa chọn tối ưu cho vẻ sang trọng, tinh tế và tiện lợi. Với vẻ ngoài lộng lẫy của Mành Cuốn, việc lắp đặt chúng nói không với bất cứ loại dây hay sự phức tạp nào. Bạn sẽ tận hưởng quyền kiểm soát hoàn toàn đối với sự vận hành của chúng bằng điều khiển từ xa, thiết bị trung tâm hay giọng nói của chính bạn.",
+      "Một số chất liệu như Mành Cuốn kín mang đến cho bạn sự riêng tư tuyệt đối bất cứ khi nào bạn cần.",
+      "Mành Cuốn có động cơ là phương án tiện lợi và dễ vận hành nhất cho bạn. Với điều khiển từ xa và động cơ hoạt động không gây ồn được lắp đặt ẩn / che đậy kỹ càng, bạn có thể dễ dàng đóng mở chúng. Việc đóng và mở Mành Cuốn thậm chí còn có thể được tự động hóa.",
+      "Mành Cuốn có tính linh hoạt bởi chúng có khả năng che chắn nhiều cửa sổ cùng lúc hoặc từng cửa sổ lớn riêng lẻ. Chúng có thể được đồng bộ hóa, tách rời hay thậm chí vận hành theo một trình tự. Đối với Mành Cuốn được trang bị động cơ, chúng có thể hoạt động bằng pin có thể tái sạc hoặc nguồn điện lưới. Dù vận hành bằng cách nào thì việc điều khiển Mành Cuốn vẫn là một công việc đơn giản.",
     ],
   },
   description: {
     titles: ["", ""],
     contents: [
-      "Motorised roller blinds are the ultimate in luxury, sophistication, and convenience. They look fantastic, there are no wires or complex installations, and you have complete control over their operation using a remote, a hub device, or your voice.",
-      "The motors for our motorised blinds are installed in the tube of the blind, so they are completely invisible. They also don’t require any additional clearance. As a result, all the roller blinds in our range can be motorised, whether you want blackout blinds, thermal blinds, sunscreen blinds, light filtering blinds, or dual roller blinds.",
-      "In addition, our motorised blinds don’t need to be connected to your electrics, and there are no wires. Instead, they are powered by battery. The recharging options are either solar or via a USB cable. The blinds take about eight hours to charge, but a single charge can open/close your blinds up to 500 times.",
+      "Mành Cuốn có động cơ là sự lựa chọn tối ưu cho vẻ sang trọng, tinh tế và tiện lợi. Với vẻ ngoài lộng lẫy của Mành Cuốn, việc lắp đặt chúng nói không với bất cứ loại dây hay sự phức tạp nào. Bạn sẽ tận hưởng quyền kiểm soát hoàn toàn đối với sự vận hành của chúng bằng điều khiển từ xa, thiết bị trung tâm hay giọng nói của chính bạn.",
+      "Động cơ của Mành Cuốn được lắp đặt bên trong ống của chúng nên nó được che đậy hoàn toàn. Hơn nữa, động cơ của mành không yêu cầu bạn phải vệ sinh chúng. Chính vì thế, toàn bộ Mành Cuốn của chúng tôi bao gồm mành kín, mành cách nhiệt, mành chống nắng, mành lọc ánh sáng hay Mành Cuốn kép đều có thể được động cơ hóa.",
+      "Không những thế, mành động cơ của chúng tôi không yêu cầu dây vì chúng không cần phải kết nối điện. Chúng được vận hành bằng pin. Bạn có thể lựa chọn sạc chúng bằng năng lượng mặt trời hay cáp USB. Tuy thời gian sạc mành động cơ lên đến tám tiếng, việc đóng mở mành có thể được thực hiện lên tới 500 lần chỉ với một lần sạc.",
     ],
   },
   summary: {

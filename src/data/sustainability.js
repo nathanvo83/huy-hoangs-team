@@ -1,11 +1,11 @@
 export const sustainability = {
   // -----
   section01: {
-    title: "Sustainability",
+    title: "Sự bền vững",
     content: [
-      "As a company, we strongly value sustainability as a core business principle in everything we do.",
-      "Soho Blinds’ commitment to sustainability is demonstrated in our everyday activity both with our monitored carbon footprint reduction and in promoting sustainable products to the construction industry. Below are some of the ways in which Soho Blinds contributes towards making this world a better place.",
-      "Soho Blinds constantly strive to operate on a sustainable basis in all aspects of business activity. For more information please download a copy of our Environmental Policy below.",
-    ]
+      "Với vai trò là một công ty, chúng tôi đặc biệt coi trọng tính bền vững như một nguyên tắc kinh doanh cốt lõi trong mọi việc chúng tôi làm.",
+      "Cam kết về nguyên tắc bền vững của Rèm cửa Huy Hoàng được thể hiện trong hoạt động hàng ngày của chúng tôi với việc giảm lượng khí thải carbon và quảng bá các sản phẩm mang tính bền vững cho ngành xây dựng. Dưới đây là một số cách mà Rèm cửa Huy Hoàng góp phần làm cho thế giới này trở nên tốt đẹp hơn.",
+      "Rèm cửa Huy Hoàng không ngừng nỗ lực để hoạt động bền vững trên mọi phương diện hoạt động kinh doanh. Để biết thêm thông tin chi tiết, vui lòng tải xuống bản sao Chính sách Môi trường của chúng tôi bên dưới.",
+    ],
   },
 };

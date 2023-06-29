@@ -16,7 +16,7 @@ const renderMap = () => {
   return (
     <div className="section01-map">
       <iframe
-        src="https://maps.google.com/maps?q=25%2F183+Karangahape+Road,+Auckland+CBD,+Auckland+1010&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        src="https://maps.google.com/maps?q=647+Điện+Biên+Phủ,+Phường+1,+Quận+3,+Thành+phố+Hồ+Chí+Minh,+Việt+Nam&t=&z=13&ie=UTF8&iwloc=&output=embed"
         width="100%"
         height="500"
         id="gmap_canvas"
@@ -25,15 +25,10 @@ const renderMap = () => {
         marginHeight="0"
         marginWidth="0"
       ></iframe>
-      {/* <GoogleMapReact */}
-      {/*   bootstrapURLKeys={{ key: 'AIzaSyCIQHL2VS4DNgYy58XG1KNVQHc468PhGqE' }} */}
-      {/*   defaultCenter={location.center} */}
-      {/*   defaultZoom={location.zoom} */}
-      {/* ></GoogleMapReact> */}
     </div>
   );
 };
-
+// 647 Điện Biên Phủ, Phường 1, Quận 3, Thành phố Hồ Chí Minh, Việt Nam
 const renderMobile = () => (
   <div className="section01">
     <div className="section01-container-m">{renderMap()}</div>

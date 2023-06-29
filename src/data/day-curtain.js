@@ -1,21 +1,21 @@
 export const dayCurtains = {
   overview: {
     titles: [
-      "Curtains improve the décor of the house",
-      "Curtains provides Privacy and Security",
-      "Curtains provides Protection"
+      "Màn cửa nâng tầm cảnh trí của ngôi nhà bạn",
+      "Màn cửa mang đến cho bạn sự riêng tư và an toàn",
+      "Màn cửa bảo vệ bạn",
     ],
     contents: [
-      "Whether your interior design is Scandinavian, traditional, contemporary, shabby chic or Bohemian, curtains have the ability to augment your chosen look and take it to new heights. Curtains accent the overall mood you wish to evoke with your chosen design them. In New Zealand, homeowners go for high-quality materials, decorative charm, and ease of maintenance.",
-      "The most practical function of curtains is to serve as covering. In New Zealand, where privacy is a primordial concern, curtains are sensibly used in every window. Curtains keep you safe from the glances and curious looks of people walking by. For most people, curtains give them a sense of security, exclusivity, and ownership of space.",
-      "Curtains protect the dwellers from harmful UVA/ UVB light and mitigate extreme heat from entering your upsetting the temperature balance in your home. They also protect your precious furniture and furnishing, especially those that react to extreme heat and light."
-    ]
+      "Màn cửa có khả năng làm nổi bật và nâng tầm diện mạo thiết kế nội thất của bạn cho dù đó là thiết kế thuộc chủ đề truyền thống, hiện đại, Scandinavian, Bohemian hay Shabby Chic. Chúng còn tô điểm và truyền tải được ý nghĩa của thiết kế nội thất đó. Ở thành phố Hồ Chí Minh, các hộ gia đình thường ưu tiên các đặc điểm như chất liệu chất lượng cao, phong cách trang trí đầy sự hấp dẫn và quy trình bảo dưỡng tối giản.",
+      "Chức năng thiết thực nhất của màn cửa là đóng vai trò như một tấm màn che phủ. Ở thành phố Hồ Chí Minh - một nơi mà sự riêng tư là mối ưu tiên hàng đầu thì màn cửa được treo ở mọi cửa sổ. Màn cửa giúp bạn tránh được những cái liếc mắt và ánh nhìn tò mò của người qua đường. Đối với phần lớn mọi người, màn cửa mang đến cho họ cảm giác an toàn, quyền riêng tư và độc quyền về không gian.",
+      "Màn cửa bảo vệ bạn khỏi tia UVA và UVB độc hại đồng thời giảm thiểu nhiệt độ cao xâm nhập gây mất cân bằng nhiệt độ bên trong. Chúng cũng bảo vệ đồ đạc và nội thất trang trí quý giá của bạn, nhất là những đồ vật phản ứng với sức nóng và ánh sáng khắc nghiệt.",
+    ],
   },
   description: {
     titles: ["", ""],
     contents: [
-      "Day curtains are distinguishable from other types of curtains because of their lightweight and sheer materials. Day curtains are the perfect options to soften the look of any room in your home. Often made of delicate fabrics such as lace or organza, day curtains afford owners full view of the outdoors, while keeping outsiders from looking inside the house. It is the curtain of choice of most property owners as the subtle ambient natural lighting provides optimal visibility during the day; while the diffusion of the sunlight’s direct heat and glare allows them to keep room temperature at a comfortable level, thus saving electricity.",
-      "Your day curtains need not be complicated, but the decision-making itself is a rather complex process. You need to ensure that the colour, fabric and design of your curtain matches your interior – and you’d have to find curtains made out of low-maintenance materials. At the soho gallery, you get spoilt for choice. We have one of the most extensive arrays of sheer day curtains at prices to fit every budget. Speak to our friendly and skillful in-house designers should you need help in choosing the right day curtain for your home."
-    ]
-  }
+      "Màn Voan nổi bật hơn so với những loại màn cửa khác ở trọng lượng nhẹ và chất liệu mỏng. Nó là sự lựa chọn hoàn hảo để làm dịu đi diện mạo nội thất của bất kỳ căn phòng nào trong nhà bạn. Bạn có thể nhìn toàn cảnh bên ngoài đồng thời tránh người bên ngoài nhìn vào bên trong nhà bạn nhờ chất liệu vải mỏng như ren hay organza của chúng. Màn  Voan là sự lựa chọn của hầu hết các hộ gia đình bởi ánh sáng tự nhiên có thể xuyên qua và mang đến tầm nhìn tối ưu nhất vào voan. Không dừng lại ở đó, sự khuếch tán nhiệt và ánh sáng giúp nhiệt độ phòng của bạn luôn nằm trong mức thoải mái giúp bạn tiết kiệm điện năng.",
+      "Bản thân Màn Voan không hề phức tạp, cái phức tạp chính là quá trình quyết định xem nên chọn mẫu mã, thiết kế nào. Màn được chọn nên là loại có màu sắc, chất vải và kiểu dáng phù hợp với thiết kế nội thất đồng thời đảm bảo quy trình bảo dưỡng không quá phức tạp. Ngay tại phòng trưng bày của Rèm cửa Huy Hoàng, bạn có thể tha hồ chọn lựa chiếc màn bạn ưng ý. Chúng tôi cung cấp đa dạng các loại màn ban ngày mỏng với mức giá phù hợp với mọi đối tượng. Các nhân viên thiết kế nội thất thân thiện và chuyên nghiệp của chúng tôi sẽ hỗ trợ bạn trong việc chọn ra tấm màn dành cho ngôi nhà của bạn.",
+    ],
+  },
 };

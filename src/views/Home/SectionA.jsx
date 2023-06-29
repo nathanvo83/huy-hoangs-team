@@ -40,7 +40,7 @@ const renderMobile = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Blinds</div>
+                <div className="section-header-details">Mành</div>
 
                 <div className="sectionA-item-details">
                   Với sự kết hợp hài hoà giữa phong cách hiện đại và lợi ích
@@ -213,7 +213,7 @@ const renderTablet = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Blinds</div>
+                <div className="section-header-details">Mành</div>
 
                 <div className="sectionA-item-details">
                   Với sự kết hợp hài hoà giữa phong cách hiện đại và lợi ích
@@ -386,7 +386,7 @@ const renderDesktop = () => (
                     <div className="sectionA-image-cover"></div>
                   </div>
                 </a>
-                <div className="section-header-details">Blinds</div>
+                <div className="section-header-details">Mành</div>
 
                 <div className="sectionA-item-details">
                   Với sự kết hợp hài hoà giữa phong cách hiện đại và lợi ích

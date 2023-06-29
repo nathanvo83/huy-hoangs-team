@@ -103,13 +103,13 @@ import BGuideShutters from "./BuyingGuide/BGuideShutters";
 const Main = () => {
   // -----blinds-----
   const renderProductBlindsRoller = () => {
-    document.title = 'Roller Blinds | Style & Functionality | Soho Blinds';
+    document.title = "Roller Blinds | Style & Functionality | Soho Blinds";
 
     return (
       <Product
-        title="Roller Blinds"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="MÀNH CUỐN"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={rollerBlinds.overview}
         content02={rollerBlinds.description}
         summary={rollerBlinds.summary}
@@ -127,16 +127,17 @@ const Main = () => {
           roller10,
         ]}
       ></Product>
-    )
+    );
   };
   const renderProductBlindsMotorisedRoller = () => {
-    document.title = 'Motorised Roller Blinds | Style & Functionality | Soho Blinds';
+    document.title =
+      "Motorised Roller Blinds | Style & Functionality | Soho Blinds";
 
     return (
       <Product
-        title="Motorised Roller Blinds"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="MÀNH CUỐN CÓ ĐỘNG CƠ"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={motorisedRollerBlinds.overview}
         content02={motorisedRollerBlinds.description}
         summary={motorisedRollerBlinds.summary}
@@ -154,17 +155,17 @@ const Main = () => {
           roller10,
         ]}
       ></Product>
-    )
+    );
   };
 
   const renderProductBlindsVenetian = () => {
-    document.title = 'Venetian Blinds Collection | Soho Blinds';
+    document.title = "Venetian Blinds Collection | Soho Blinds";
 
     return (
       <Product
-        title="Venetian Blinds"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="MÀNH SÁO NGANG"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={venetianBlinds.overview}
         content02={venetianBlinds.description}
         images={[
@@ -182,45 +183,45 @@ const Main = () => {
           venetian12,
         ]}
       ></Product>
-    )
+    );
   }; //update
   const renderProductBlindsVertical = () => {
-    document.title = 'Vertical Blinds | Safe & Easy to Clean | Soho Blinds';
+    document.title = "Vertical Blinds | Safe & Easy to Clean | Soho Blinds";
 
     return (
       <Product
-        title="Vertical Blinds"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="MÀNH LÁ DỌC"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={verticalBlinds.overview}
         content02={verticalBlinds.description}
         images={[vertical01, vertical02, vertical03, vertical04]}
       ></Product>
-    )
+    );
   };
   const renderProductBlindsZebra = () => {
-    document.title = 'Zebra Blinds | Easy Maintenance | Soho Blinds';
+    document.title = "Zebra Blinds | Easy Maintenance | Soho Blinds";
 
     return (
       <Product
-        title="Zebra Blinds"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="MÀNH CẦU VỒNG"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={zebraBlinds.overview}
         content02={zebraBlinds.description}
         images={[zebra01, zebra02, zebra03, zebra04, zebra05, zebra06, zebra07]}
       ></Product>
-    )
+    );
   };
   // -----curtain-----
   const renderProductCurtainNight = () => {
-    document.title = 'Normal & Dimmed Out Night Curtains | Soho Blinds';
+    document.title = "Normal & Dimmed Out Night Curtains | Soho Blinds";
 
     return (
       <Product
-        title="Night Curtains"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="MÀN CHỐNG NẮNG VÀ NÓNG"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={nightCurtains.overview}
         content02={nightCurtains.description}
         images={[
@@ -236,16 +237,16 @@ const Main = () => {
           night02,
         ]}
       ></Product>
-    )
+    );
   };
   const renderProductCurtainDay = () => {
-    document.title = 'Day Curtains | Protection Providers | Soho Blinds';
+    document.title = "Day Curtains | Protection Providers | Soho Blinds";
 
     return (
       <Product
-        title="Day Curtains"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="MÀN VOAN"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={dayCurtains.overview}
         content02={dayCurtains.description}
         images={[
@@ -264,37 +265,37 @@ const Main = () => {
           day13,
         ]}
       ></Product>
-    )
+    );
   };
   // -----shutter-----
   const renderProductShutterPVC = () => {
-    document.title = 'Alycore Plus PVC Shutter Collection | Soho Blinds';
+    document.title = "Alycore Plus PVC Shutter Collection | Soho Blinds";
 
     return (
       <Product
-        title="Alycore Plus PVC Shutter"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="CỬA CHỚP NHỰA PVC"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={pvcShutter.overview}
         content02={pvcShutter.description}
         images={[alycore01, alycore02, alycore03, alycore04, alycore05]}
       ></Product>
-    )
+    );
   };
 
   const renderProductShutterTimber = () => {
-    document.title = 'Timber Shutter Collection | Soho Blinds'
+    document.title = "Timber Shutter Collection | Soho Blinds";
 
     return (
       <Product
-        title="Timber Shutter"
-        tab01="OVERVIEW"
-        tab02="DESCRIPTION"
+        title="CỬA CHỚP GỖ"
+        tab01="TỔNG QUAN"
+        tab02="MÔ TẢ"
         content01={timberShutter.overview}
         content02={timberShutter.description}
         images={[timber01, timber02, timber03, timber04, timber05]}
       ></Product>
-    )
+    );
   };
 
   return (
