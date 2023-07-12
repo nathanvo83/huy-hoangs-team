@@ -34,22 +34,28 @@
 
 .section04-col {
   margin: 15px 0px;
-  display: inline-flex;
-  /* color: #6e6e6e; */
+  /* display: inline-flex; */
+  /* background-color: #0000ff; */
+  /* width: 100%; */
 }
 
 .section04-icon {
-  display: inline-flex;
-  margin-top: 5px;
-  margin-right: 10px;
-  font-size: 35px;
-  vertical-align: top !important;
+  /* display: inline-flex; */
+  /* margin-top: 5px; */
+  /* margin-right: 10px; */
+  /* font-size: 35px; */
+  /* vertical-align: top !important; */
   color: #00bbaa;
-  width: 60px;
+  width: 50px !important;
   /* background-color: springgreen; */
+
+  /* width: 50px !important; */
 }
 .section04-body {
-  /* display: inline-flex; */
+  /* margin: 5px;
+  display: flex; */
+  width: 100%;
+  /* background-color: blueviolet; */
 }
 
 .section04-title {
@@ -62,5 +68,5 @@
 
 .section04-subtitle {
   text-align: justify;
-  /* background-color: slateblue; */
+  /* background-color: chocolate; */
 }

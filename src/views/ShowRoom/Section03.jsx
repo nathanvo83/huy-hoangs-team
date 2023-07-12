@@ -45,7 +45,7 @@ const renderMobile = () => (
                   2. Nhận lời khuyên từ chuyên gia
                 </div>
                 <div className="section03-item-details">
-                  Cố vấn viên địa phương của bạn sẽ mang đến tất cả hàng mẫu. Họ
+                  Cố vấn viên của Huy Hoàng bạn sẽ mang đến tất cả hàng mẫu. Họ
                   sẽ đo đạc cửa sổ và báo giá cho bạn những thiết kế mà bạn ưng
                   ý.
                 </div>
@@ -117,9 +117,8 @@ const renderTablet = () => (
                   2. Nhận lời khuyên từ chuyên gia
                 </div>
                 <div className="section03-item-details">
-                  Cố vấn viên địa phương của bạn sẽ mang đến tất cả hàng mẫu. Họ
-                  sẽ đo đạc cửa sổ và báo giá cho bạn những thiết kế mà bạn ưng
-                  ý.
+                  Cố vấn viên của Huy Hoàng sẽ mang đến tất cả hàng mẫu. Họ sẽ
+                  đo đạc cửa sổ và báo giá cho bạn những thiết kế mà bạn ưng ý.
                 </div>
               </div>
             </Grid.Column>
@@ -194,9 +193,8 @@ const renderDesktop = () => (
                   2. Nhận lời khuyên từ chuyên gia
                 </div>
                 <div className="section03-item-details">
-                  Cố vấn viên địa phương của bạn sẽ mang đến tất cả hàng mẫu. Họ
-                  sẽ đo đạc cửa sổ và báo giá cho bạn những thiết kế mà bạn ưng
-                  ý.
+                  Cố vấn viên của Huy Hoàng sẽ mang đến tất cả hàng mẫu. Họ sẽ
+                  đo đạc cửa sổ và báo giá cho bạn những thiết kế mà bạn ưng ý.
                 </div>
               </div>
             </Grid.Column>

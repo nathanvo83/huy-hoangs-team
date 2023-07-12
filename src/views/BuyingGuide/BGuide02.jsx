@@ -38,9 +38,9 @@ const renderMobile = () => (
                 </li>
               ))}
             </ul>
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: "center" }}>
               <a href={buyingGuide.bguide02.link} className="ui button">
-                Discover {buyingGuide.bguide02.title}
+                Khám phá {buyingGuide.bguide02.title}
               </a>
             </div>
           </Grid.Column>
@@ -81,9 +81,9 @@ const renderTablet = () => (
                 </li>
               ))}
             </ul>
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: "center" }}>
               <a href={buyingGuide.bguide02.link} className="ui button">
-                Discover {buyingGuide.bguide02.title}
+                Khám phá {buyingGuide.bguide02.title}
               </a>
             </div>
           </Grid.Column>
@@ -114,9 +114,9 @@ const renderDesktop = () => (
                 </li>
               ))}
             </ul>
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: "center" }}>
               <a href={buyingGuide.bguide02.link} className="ui button">
-                Discover {buyingGuide.bguide02.title}
+                Khám phá {buyingGuide.bguide02.title}
               </a>
             </div>
           </Grid.Column>

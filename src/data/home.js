@@ -4,7 +4,7 @@ export const home = {
     title: "Tầm quan trọng của màn cửa và mành",
     content: [
       "Màn cửa và mành có mục đích, chức năng và nhiều đặc điểm tương tự nhau. Chúng được thiết kế như bức màn che cửa sổ và thực hiện nhiều nhiệm vụ như ngăn chặn ánh sáng mặt trời, kiểm soát mức độ xuyên thấu của ánh sáng và sự riêng tư.",
-      "Với lối sống phát triển nhanh chóng và chất lượng cuộc sống của người dân được cải thiện liên tục, giá trị chức năng của màn cửa và mành đã đạt đến đến giá trị thẩm mỹ và, giờ đây trở thành yếu tố cốt yếu / không thể thiếu trong thiết kế nội thất của một ngôi nhà.",
+      "Với lối sống phát triển nhanh chóng và chất lượng cuộc sống của người dân được cải thiện liên tục, giá trị chức năng của màn cửa và mành đã đạt đến đến giá trị thẩm mỹ và, giờ đây trở thành yếu tố không thể thiếu trong thiết kế nội thất của một ngôi nhà.",
       "Màn cửa có thể dễ dàng trở thành một phần của bất cứ thiết kế nội thất nào nhờ loại, màu sắc và kiểu dáng đa dạng như màn cửa voan, màn cửa chống nắng.",
       "Mành gọn gàng, khả thi và tối giản đồng thời mang lại nhiều sự lựa chọn hơn về thiết kế và lọc ánh sáng.",
     ],
@@ -29,7 +29,7 @@ export const home = {
     aboutUs_01: {
       title: "100% Satisfaction",
       content:
-        "Cho dù nhu cầu của bạn là những tấm màn với phong cách thanh lịch, Mành Cuốn hay Cửa Chớp, chúng tôi sẽ hợp tác với bạn để đảm bảo rằng trang bị cửa sổ của bạn không những thoả mãn nhu cầu của bạn về vẻ đẹp kiến trúc mà còn về sự bền bỉ, chắn chắn theo thời gian.",
+        "Cho dù nhu cầu của bạn là những tấm màn với phong cách thanh lịch, mành cuốn hay cửa chớp, chúng tôi sẽ hợp tác với bạn để đảm bảo rằng trang bị cửa sổ của bạn không những thoả mãn nhu cầu của bạn về vẻ đẹp kiến trúc mà còn về sự bền bỉ, chắn chắn theo thời gian.",
     },
     aboutUs_02: {
       title: "Personalisation",

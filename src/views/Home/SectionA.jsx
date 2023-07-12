@@ -102,9 +102,9 @@ const renderMobile = () => (
                 <div className="section-header-details">Màn Cửa</div>
 
                 <div className="sectionA-item-details">
-                  Tô điểm nét tinh tế, sang trọng cho ngôi nhà / tổ ấm của bạn
-                  với bộ sưu tập màn cửa đẹp cùng chất lượng vải hàng đầu và
-                  kiểu dáng theo xu hướng.
+                  Tô điểm nét tinh tế, sang trọng cho tổ ấm của bạn với bộ sưu
+                  tập màn cửa đẹp cùng chất lượng vải hàng đầu và kiểu dáng theo
+                  xu hướng.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -275,9 +275,9 @@ const renderTablet = () => (
                 <div className="section-header-details">Màn Cửa</div>
 
                 <div className="sectionA-item-details">
-                  Tô điểm nét tinh tế, sang trọng cho ngôi nhà / tổ ấm của bạn
-                  với bộ sưu tập màn cửa đẹp cùng chất lượng vải hàng đầu và
-                  kiểu dáng theo xu hướng.
+                  Tô điểm nét tinh tế, sang trọng cho tổ ấm của bạn với bộ sưu
+                  tập màn cửa đẹp cùng chất lượng vải hàng đầu và kiểu dáng theo
+                  xu hướng.
                 </div>
 
                 <div className="sectionA-linkgroup">
@@ -445,9 +445,9 @@ const renderDesktop = () => (
                 <div className="section-header-details">Màn Cửa</div>
 
                 <div className="sectionA-item-details">
-                  Tô điểm nét tinh tế, sang trọng cho ngôi nhà / tổ ấm của bạn
-                  với bộ sưu tập màn cửa đẹp cùng chất lượng vải hàng đầu và
-                  kiểu dáng theo xu hướng.
+                  Tô điểm nét tinh tế, sang trọng cho tổ ấm của bạn với bộ sưu
+                  tập màn cửa đẹp cùng chất lượng vải hàng đầu và kiểu dáng theo
+                  xu hướng.
                 </div>
 
                 <div className="sectionA-linkgroup">

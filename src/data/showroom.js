@@ -3,11 +3,11 @@ export const showroom = {
     item_01: {
       title: "Our Range",
       content:
-        "Duyệt qua loạt mành, màn cửa và cửa chớp của chúng tôi và đặt mẫu miễn phí trước khi bạn chuyển tới",
+        "Duyệt qua loạt mành, màn cửa và cửa chớp của chúng tôi và đặt mẫu miễn phí trước khi bạn đến showroom của Huy Hoàng",
     },
     item_02: {
       title: "Appointments",
-      content: "Các cuộc hẹn có hiệu lực kể từ ngày bạn nhận được chìa khóa",
+      content: "Đặt hẹn với chúng tôi ngay khi bạn tìm được mẫu mã mình ưng ý.",
     },
     item_03: {
       title: "Many Options",
