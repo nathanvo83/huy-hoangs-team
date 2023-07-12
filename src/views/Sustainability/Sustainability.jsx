@@ -10,7 +10,7 @@ import img_p03 from "../../assets/images/sustainability/flx-yarn.jpg";
 import img_p04 from "../../assets/images/sustainability/fabric.png";
 
 const Sustainability = () => {
-  document.title = "Sustainable Roller Blinds | Soho Blinds";
+  // document.title = "Sustainable Roller Blinds | Soho Blinds";
 
   return (
     <React.Fragment>

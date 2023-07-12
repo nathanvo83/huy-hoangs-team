@@ -103,7 +103,7 @@ import BGuideShutters from "./BuyingGuide/BGuideShutters";
 const Main = () => {
   // -----blinds-----
   const renderProductBlindsRoller = () => {
-    document.title = "Roller Blinds | Style & Functionality | Soho Blinds";
+    document.title = "Mành cuốn | Màn Cửa Huy Hoàng";
 
     return (
       <Product
@@ -130,8 +130,7 @@ const Main = () => {
     );
   };
   const renderProductBlindsMotorisedRoller = () => {
-    document.title =
-      "Motorised Roller Blinds | Style & Functionality | Soho Blinds";
+    document.title = "Mành cuốn có động cơ | Màn Cửa Huy Hoàng";
 
     return (
       <Product
@@ -159,7 +158,7 @@ const Main = () => {
   };
 
   const renderProductBlindsVenetian = () => {
-    document.title = "Venetian Blinds Collection | Soho Blinds";
+    document.title = "Mành sáo ngang | Màn Cửa Huy Hoàng";
 
     return (
       <Product
@@ -186,7 +185,7 @@ const Main = () => {
     );
   }; //update
   const renderProductBlindsVertical = () => {
-    document.title = "Vertical Blinds | Safe & Easy to Clean | Soho Blinds";
+    document.title = "Mành lá dọc | Màn Cửa Huy Hoàng";
 
     return (
       <Product
@@ -200,7 +199,7 @@ const Main = () => {
     );
   };
   const renderProductBlindsZebra = () => {
-    document.title = "Zebra Blinds | Easy Maintenance | Soho Blinds";
+    document.title = "Mành cầu vồng | Màn Cửa Huy Hoàng";
 
     return (
       <Product
@@ -215,7 +214,7 @@ const Main = () => {
   };
   // -----curtain-----
   const renderProductCurtainNight = () => {
-    document.title = "Normal & Dimmed Out Night Curtains | Soho Blinds";
+    document.title = "Màn chống nắng và nóng | Màn Cửa Huy Hoàng";
 
     return (
       <Product
@@ -240,7 +239,7 @@ const Main = () => {
     );
   };
   const renderProductCurtainDay = () => {
-    document.title = "Day Curtains | Protection Providers | Soho Blinds";
+    document.title = "Màn voan | Màn Cửa Huy Hoàng";
 
     return (
       <Product
@@ -269,7 +268,7 @@ const Main = () => {
   };
   // -----shutter-----
   const renderProductShutterPVC = () => {
-    document.title = "Alycore Plus PVC Shutter Collection | Soho Blinds";
+    document.title = "Cửa chớp nhựa PVC | Màn Cửa Huy Hoàng";
 
     return (
       <Product
@@ -284,7 +283,7 @@ const Main = () => {
   };
 
   const renderProductShutterTimber = () => {
-    document.title = "Timber Shutter Collection | Soho Blinds";
+    document.title = "Cửa chớp gỗ | Màn Cửa Huy Hoàng";
 
     return (
       <Product
