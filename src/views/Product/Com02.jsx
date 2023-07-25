@@ -22,12 +22,14 @@ const Com02 = (props) => {
           name={tab01}
           active={activeItem === tab01}
           onClick={handleItemClick}
+          content={tab01}
         />
         <Menu.Item
           className="com02-item"
           name={tab02}
           active={activeItem === tab02}
           onClick={handleItemClick}
+          content={tab02}
         />
       </Menu>
       <div>
